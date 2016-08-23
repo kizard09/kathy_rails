@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Hundred Story Home | Kathy Izard </title>
+        <meta type="description" content="The Hundred Story Home is a memoir by Kathy Izard about a Journey of Homelessness, Hope, and Healing. Learn to Trust the Whisper.">
+        <meta type="keywords" content="memoir, inspirational book, homelessness, buy the hundred story home, Kathy Izard">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+         <link href="https://file.myfontastic.com/EuvimmRHjv6T72g6JAGMxY/icons.css" rel="stylesheet">
+         <link type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.6/assets/owl.carousel.min.css" rel="stylesheet" >
+         <link type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.6/assets/owl.theme.default.min.css" rel="stylesheet" >
+          <link type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" >
+        <script rel="stylesheet" src="https://use.typekit.net/zid6riz.js"></script>
+        <script>try{Typekit.load({ async: true });}catch(e){}</script>
+        <%= stylesheet_link_tag   '0', media: 'all', 'data-turbolinks-track' => true %>
+       <%= stylesheet_link_tag   '0_EB', media: 'all', 'data-turbolinks-track' => true %>
+       <%= stylesheet_link_tag   '768', media: 'all', 'data-turbolinks-track' => true %>
+       <%= stylesheet_link_tag   '768_EB', media: 'all', 'data-turbolinks-track' => true %>
+       <%= stylesheet_link_tag   '1000', media: 'all', 'data-turbolinks-track' => true %>
+       <%= stylesheet_link_tag   '1000_EB', media: 'all', 'data-turbolinks-track' => true %>
+       
+
+   <%= csrf_meta_tags %>
+</head>
+<body>
+
+<div class="r">
+    <nav>
+      <div class="mobile">
+        <a href="/" class="home"><%= image_tag 'Logo_Mark2_x1.png' %></a>
+        <div id="menu">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="nav">
+        <div class="secondary">
+          <div class="wrap cf">
+            <div class="left ">
+            <div class="social">
+              <a class="icon-facebook" href="https://www.facebook.com/kathyizardclt" target="_blank"></a>
+              <a class="icon-twitter" href="https://twitter.com/kathyizardclt" target="_blank"></a>
+              <a class="icon-instagram" href="https://www.instagram.com/kathyizardclt/" target="_blank"></a>
+              <a href="#newsletter" class="button">Connect</a>
+              </div>
+              
+            </div>
+            <a href="/" class="home tablet"><%= image_tag 'Logo_4' %></a>
+            <!-- <a href="" class="pop button">Connect With Me</a> -->
+            <div class="right">
+              <%= link_to 'Media', 'media' %>
+              <%= link_to 'Contact', 'contact' %>
+              <%= link_to 'Speaking', 'speaking' %>
+              </div>
+          </div>
+        </div>
+        <div class="primary">
+          <div class="wrap">
+            <%= link_to 'About Me', 'aboutme' %>
+            <%= link_to 'Book', 'book' %>
+            <%= link_to 'Moore Place', 'mooreplace' %>
+            <%= link_to 'About You', 'aboutyou' %>
+            <%= link_to 'Blog', blog_posts_path %>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  
+  <%= yield %>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <%= javascript_include_tag 'scripts', 'data-turbolinks-track' => true %>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.6/owl.carousel.min.js"></script>
+</body>
+</html>

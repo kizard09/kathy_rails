@@ -1,0 +1,217 @@
+/****** 
+Columnn Styles 
+******/
+
+
+.wrap {
+	width: 100%;
+}
+
+.col1,
+.col2 {
+	margin-top: 40px;
+	width: 100%;
+	padding:0 10px;
+}
+
+/* QUOTES COLUMN */
+
+.quote-block .blockquote {
+	
+}
+
+.quote-block {
+	line-height: 1px;
+	padding-bottom: 1px;
+}
+
+.quote-block p {
+		color: #407499;
+		line-spacing: .2px;
+		font-family: 'futura-pt', verdana, sans-serif;
+	}
+
+.quote-block h6 {
+	line-height: 2px;
+	margin-bottom: 32px;
+	font:12px 'futura-pt', verdana, sans-serif;
+	color: #9DCCE2;
+	font-weight: bold;
+}
+
+
+blockquote {
+	display: inline;
+	quotes: "\201C""\201C""\201C""201C";
+
+}
+
+blockquote:before {
+	color: #61B5D7;
+	content: open-quote;
+	font-family: 'futura-pt', verdana, sans-serif;
+	font-size: 6em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+}
+
+/* PRE-ORDER BOX */
+
+.pre-order {
+	background-color: #3F7398;
+	box-sizing: border-box;
+	-webkit-box;
+	width: calc(100% - 30px);
+	width: -webkit-calc(100);
+	margin: 15px;
+
+}
+
+.pre-order .order,
+.solomon-intro .order {
+	color: #fff;
+	background-color: #61B5D7;
+
+}
+
+.container-box {
+	margin: 25px;
+	text-align: left;
+	padding: 15px;
+}
+
+
+/*pre-order button*/
+
+.order {
+	display: block;
+	margin: 0 auto;
+	color: #61B5D7;
+	height: 60px;
+	border-style: none;
+	line-height: 4em;
+}
+
+.headline {
+	font-family:'futura-pt', serif;
+	font-size: 28px;
+	margin: 15px;
+	color: #B5D7DA;
+
+}
+
+.earlyorder {
+	font: 18px/24px'adobe-caslon-pro', verdana, sans-serif;
+	color: #fff;
+
+}
+
+
+/* AUTHOR VIDEO BOX */
+
+.video {
+	position: relative;
+	margin: 20px 0;
+}
+
+.videoimage {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.icon-container h6 {
+	position: absolute;
+	text-align: center;
+    right: 5px;
+    left: 20px;
+    margin: auto;
+	top: 105px;
+	color: #fff;	
+}
+
+
+
+
+/* READERS GUIDE */
+
+.readersguide {
+	position: relative;
+	background-color: #BCD8D7;
+	height: 85px;
+}	
+
+.readersguide h6 {
+	line-height: 80px;
+	text-align: center;
+	color: #3F7398;
+}
+
+.icon-box {
+	text-align: center;
+	width: 50px;
+	height: 40px;
+}
+
+
+.readersguide::before {
+	content: url(../img/bookicon.png);
+	position: absolute;
+	bottom: 0;
+}
+
+.readersguide::after {
+	content: url(../img/arrowright.png);
+	position: absolute;
+	bottom: 0.1px;
+	right: 5px;
+	
+}
+
+/*******************
+	MOORE PLACE
+********************/
+
+.videoSol {
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.solomon-intro {
+	background-color: #3F7398;
+	box-sizing: border-box;
+	-webkit-box;
+	width: calc(100% - 30px);
+	width: -webkit-calc(100);
+	margin: 15px;
+
+}
+
+.container-moore {
+	margin: 25px;
+	text-align: left;
+	padding: 15px;
+}
+
+.container-moore h6 {
+	line-height: 2px;
+    margin-bottom: 32px;
+    font: 12px 'futura-pt', verdana, sans-serif;
+    color: #9DCCE2;
+    font-weight: bold;
+}
+
+.container-moore .headline {
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+

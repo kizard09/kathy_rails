@@ -1,0 +1,26 @@
+<div class="wrap">
+
+<h3>Current Blog Posts</h3>
+
+<div class="row">
+ <% @blog_posts.each do |blog_post| %>
+   <div class="col-md-6">
+     <div class="panel panel-default">
+       <div class="panel-heading">
+            <td><%= link_to blog_post.title, blog_post %></td>
+       </div>
+       <div class="panel-body">
+         by <strong><%= link_to blog_post.user.username, user_posts_path(id: blog_post.user.id) %></strong>
+         <td><%= truncate(blog_post.blog_entry, :length => 10) %><%= link_to "Read More", blog_post %></td>
+       </div>
+       <div class="panel">
+         <% blog_post.comments.each do |comment| %>
+            <p><%= comment.author %></p>
+            <p><%= comment.comment_entry %></p>
+         <% end %>
+       </div>
+     </div>
+   </div>
+ <% end %>
+</div>
+</div>

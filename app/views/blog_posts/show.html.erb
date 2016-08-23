@@ -1,0 +1,27 @@
+<div class="wrap">
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h3><%= @blog_post.title %></h3>
+    </div>
+    <div class="panel-body">
+      <p>by <%= @blog_post.user.name%></p>
+      <p><%= @blog_post.blog_entry %></p>
+    </div>
+  </div>
+  <div class="panel panel-default">
+  	<div class="panel-header">
+  		<h4>Make a Comment</h4>
+  	</div>
+    <div class="panel panel-success">
+      <div class="panel-body">
+        <%= render 'comments/form' %>
+      </div>
+    </div>
+  </div>
+  <h2>Comments</h2>
+    <% @blog_post.comments.each do |comment| %>
+         <p><strong><%= link_to comment.user.username, user_posts_path(id: comment.user.id) %></strong> said:</p>
+    		<p><%= comment.comment_entry %></p>
+    	<% end %>
+  <%= link_to 'Back to Blogs', blog_posts_path, class: 'button dblue' %>
+</div>

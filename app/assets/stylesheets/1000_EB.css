@@ -1,0 +1,12 @@
+@media screen and (min-width: 1000px){
+
+	.thsh .hero .right {
+     	margin-top: 30px; 
+	}
+	.col1,
+	.col2 {
+
+		padding:0;
+	}
+
+}
