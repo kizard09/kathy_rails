@@ -50,18 +50,18 @@
             <a href="/" class="home tablet"><%= image_tag 'Logo_4' %></a>
             <!-- <a href="" class="pop button">Connect With Me</a> -->
             <div class="right">
-              <%= link_to 'Media', 'media' %>
-              <%= link_to 'Contact', 'contact' %>
-              <%= link_to 'Speaking', 'speaking' %>
-              </div>
+              <%= link_to 'Media', site_media_path %>
+              <%= link_to 'Contact', site_contact_path %>
+              <%= link_to 'Speaking', site_speaking_path %>
+            </div>
           </div>
         </div>
         <div class="primary">
           <div class="wrap">
-            <%= link_to 'About Me', 'aboutme' %>
-            <%= link_to 'Book', 'book' %>
-            <%= link_to 'Moore Place', 'mooreplace' %>
-            <%= link_to 'About You', 'aboutyou' %>
+            <%= link_to 'About Me', site_aboutme_path %>
+            <%= link_to 'Book', site_book_path %>
+            <%= link_to 'Moore Place', site_mooreplace_path %>
+            <%= link_to 'About You', site_aboutyou_path %>
             <%= link_to 'Blog', blog_posts_path %>
           </div>
         </div>
@@ -71,6 +71,26 @@
   
   <%= yield %>
 
+<footer>
+      <div class="wrap cf">
+        <a href="index.html" class="h">K</a>
+        <!-- <small>Copyright &copy; 2016. Kathy Izard. All Right Reserved.</small> -->
+        <div class="primary desktop">
+          <div class="wrap">
+            <%= link_to 'About Me', site_aboutme_path %>
+            <%= link_to 'Book', site_book_path %>
+            <%= link_to 'Moore Place', site_mooreplace_path %>
+            <%= link_to 'About You', site_aboutyou_path %>
+            <%= link_to 'Blog', blog_posts_path %>
+          </div>
+        </div>
+        <div class="social">
+          <a class="icon-facebook" href="https://www.facebook.com/kathyizardclt" target="_blank"></a>
+          <a class="icon-twitter" href="https://twitter.com/kathyizardclt" target="_blank"></a>
+          <a class="icon-instagram" href="https://www.instagram.com/kathyizardclt/" target="_blank"></a>
+        </div>
+      </div>
+    </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
   <%= javascript_include_tag 'scripts', 'data-turbolinks-track' => true %>
 

@@ -24,7 +24,6 @@ class BlogPostsController < ApplicationController
   # GET /blog_posts/new
   def new
     before_filter :authenticate_user!
-    before_filter :authenticate_user!
     @blog_post = BlogPost.new
   end
 

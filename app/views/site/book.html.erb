@@ -1,2 +1,73 @@
-<h1>Site#book</h1>
-<p>Find me in app/views/site/book.html.erb</p>
+<div class="container thsh">
+	<div class="wrap"> 
+		<div class="hero">
+		<div class="cf">
+			<div class="left">
+				<h1>Trust the Whisper</h1>
+				<h2>A powerful true story about finding faith in yourself and something bigger.</h2><br>
+				<p><em>The Hundred Story Home leads readers on an inspirational journey that begins with a question, &quot;Where are the beds&#x3f;&quot; and ends with over one hundred formerly homeless people living in homes of their own.</em></p>
+				<p>In November 2007, author Kathy Izard was a graphic designer, wife, mother of four and volunteer at Charlotte&#x27;s Urban Ministry Center, when she had an unlikely meeting with formerly homeless, bestselling author Denver Moore (Same Kind of Different As Me) that changed the course of her life. Kathy was enjoying a comfortable existence when she came face to face with the reality that while her dedicated service at the community soup kitchen might be feeding her soul, it would never solve the bigger needs of the homeless population.  Kathy promised Denver to take on what seemed like an insurmountable task&#xfe58;to build housing for Charlotte&#x27;s homeless. In a four year commitment to this promise,  Kathy successfully rallied her community to rethink how those on the streets were treated.</p>
+				<p>Woven together with this uplifting story of a call to social action is Kathy&#x27;s personal struggle with faith, forgiveness and fulfillment. Kathy hopes reading her book will inspire people to ask&#x3a; What&#x27;s calling me? And no matter how crazy that call may seem, believe it may be crazier not to try.</p>
+			</div>
+			<div class="right">
+				<%= image_tag 'the-hundred-story-home' %>
+			</div>
+		</div>
+	</div>
+	
+	<!-- begin column content-->
+	<div class="col1 col cf">
+
+		<div class="quote-block">
+			<blockquote>
+				<p>Compelling, inspiring, funny and poignant.... This is a book about finding your purpose in a meaningful life; it&#x27;s about faith and family and friendship. But mostly, it&#x27;s a love story.&quot;</p>
+			</blockquote>
+			<h6>Kristin Hills Bradberry, Charlotte NC</h6>
+		</div>
+
+		<div class="quote-block">
+			<blockquote>
+				<p>I just finished Kathy's book. Once I got into it, I could barely put it down. I thought it was wonderful and I cried all the way through it. I can't wait until this is published because I want to share it with so many people.</p>
+			</blockquote>
+			<h6>Deborah Lynn Clasen, Kingsport TN</h6>
+		</div>
+
+		<div class="quote-block">
+			<blockquote>
+				<p>In the book, Kathy describes how her father used to say to her &quot; You can do anything, Kathy, really anything. &quot; When you reach the last page of the Hundred Story Home, you completely agree with Kathy's dad-but equally powerfully, through Kathy's example, you believe you can do anything too. The Hundred Story Home leaves the reader inspired, as Gandhi said, to be the change we want to see in the world.</p>
+			</blockquote>
+			<h6>Caroline Chambre Hammock
+			<br>Associate Executive Director, Urban Ministry Center
+			</h6>
+		</div>
+
+		<div class="quote-block">
+			<blockquote>
+				<p>I was so compelled by this book, I really could not put it down. It helped me remember how deep my faith in God is and inspired me to find my own new path.</p>
+			</blockquote>
+			<h6>Susie Davis, Boston</h6>
+		</div> 
+	</div> <!-- end quote-block col -->
+
+	<div class="col2 col"> 
+		<div class="bluebox">
+			<h3>Be the first to receive a copy of The Hundred Story Home.</h3>
+			<p>My book will be available this fall in select bookstores and through Amazon (Paperback and ebook). Sign up here to receive a special offer when it becomes available.</p>
+			<a href="#newsletter" class="lblue button">pre-order</a>
+		</div>
+		<div class="video">
+			<div class="icon-container">
+				<h6>author video</h6>
+				<%= image_tag 'VideoImage', class: 'videoimage' %>
+			</div>			
+		</div>
+		<div class="readersguide">
+			<h6>reader's guide</h6>
+		</div>	
+	</div> <!-- end col2 -->
+
+	<%= render 'partials/newsletter' %>
+
+    </div>
+</div>
+

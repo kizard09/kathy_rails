@@ -39,15 +39,6 @@
 	    float: left;
 	    margin-top: 5px;
 	}
-
-/*	.secondary .left {
-		position: absolute;
-	    top: 50%;
-	    transform: translateY(-50%);
-	    -webkit-transform: translateY(-50%);
-	    -moz-transform: translateY(-50%);
-	    bottom: auto;
-	}*/
 	
 	.secondary .right a{
 		font: bold 10px/37px 'futura-pt', verdana, sans-serif;
@@ -69,7 +60,7 @@
 		margin-left: 25px;
 	}
 	.home.tablet img{
-		width: 150px;
+		width: 257px;
 		position: absolute;
 		left: 0;
 	    right: 0;
@@ -80,7 +71,7 @@
 	    -moz-transform: translateY(-50%);
 	}
 	.scroll .home.tablet img{
-		width:120px;
+		width:130px;
 	}
 	.primary {
 		height: 90px;
