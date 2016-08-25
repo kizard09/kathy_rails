@@ -32,23 +32,21 @@ $(function(){
 			$('nav, .r').removeClass('scroll');
 		}
 	});
-	if($(window).width < 768){
-		$('#hero').owlCarousel({
-		    center: true,
-		    items:1,
-		    nav:true,
-		    navText:['',''],
-		    loop:true,
-		    responsive:{
-		        768:{
-		            items:1.7
-		        }
-		    },
-		    onTranslate:callback,
-		    onInitialized:callback
-		});
-	}
-	
+	$('#hero').owlCarousel({
+	    center: true,
+	    items:1,
+	    nav:true,
+	    navText:['',''],
+	    loop:true,
+	    responsive:{
+	        768:{
+	            items:1.7
+	        }
+	    },
+	    onTranslate:callback,
+	    onInitialized:callback
+	});
+
 	function callback(event){
 		var items = event.item.count;     // Number of items
     	var item  = (event.item.index + 1) - event.relatedTarget._clones.length / 2;  

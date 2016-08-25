@@ -4,24 +4,19 @@ class BlogPostsController < ApplicationController
   # GET /blog_posts
   # GET /blog_posts.json
   def index
-    @blog_posts = BlogPost.all
+    @blog_posts = BlogPost.page(params[:page])
+    @first_blog = BlogPost.first
   end
 
-  def your_posts 
-      before_filter :authenticate_user!
-  end
-
-  def user_posts 
-    before_filter :authenticate_user!
-    @user = User.find(params[:id])
-  end
   # GET /blog_posts/1
   # GET /blog_posts/1.json
   def show
     @comment = Comment.new 
+
   end
 
   # GET /blog_posts/new
+
   def new
     before_filter :authenticate_user!
     @blog_post = BlogPost.new
@@ -29,7 +24,7 @@ class BlogPostsController < ApplicationController
 
   # GET /blog_posts/1/edit
   def edit
-      before_filter :authenticate_user!
+    before_filter :authenticate_user!
   end
 
   # POST /blog_posts

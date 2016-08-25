@@ -30,12 +30,15 @@
 .cf {
     *zoom: 1;
 }
-.wrap {
+.wrap, .wrap-no {
 	width:100%;
 	max-width: 1000px;
 	padding:0 20px;
 	margin:auto;
 	position: relative;
+}
+.wrap-no {
+	padding: 50px 0;
 }
 .tablet {
 	display: none;
@@ -550,12 +553,12 @@ footer .primary a {
 	float: none;
 }
 .bluebox p, .review p, .hero p {
-	color:#fff;
+	color:#fff !important;
 }
 .bluebox h3 {
-	color: #bbd6d9;
+	color: #bbd6d9 !important;
 	text-align: left;
-	font-style: 24px;
+	font-size: 24px !important;
 	font-weight: normal;
 }
 .thsh .bluebox h3{
@@ -1066,6 +1069,127 @@ _____________*/
 	max-height: 340px;
 	background-size: auto 100% ;
 
+}
+/* BLOG
+-----------------*/
+
+.container.blog .hero .wrap-no {
+	background: url(kathy-back.jpg) no-repeat center top;
+	max-height: 340px;
+	width: 100%;
+	text-align: center;
+	display: table;
+}
+.container.blog .hero .wrap-no div{
+	display: table-cell;
+	vertical-align: middle
+}
+.container.blog  p{
+	color:#666666;
+	margin-bottom: 17px;
+}
+.container.blog h6{
+	color: #fff
+}
+.container.blog h4{
+	color: #71b4d5;
+	margin: 5px 0;
+	font: 16px 'adobe-caslon-pro', serif;
+}
+.container.blog .hero .wrap-no:after {
+	display: none;
+}
+.blogs .item {
+	background: #fff;
+	display: table;
+	box-shadow: 5px 5px 5px #ccc;
+	margin-bottom: 30px;
+}
+.blogs .item > div {
+	display: table-cell;
+	width:100%;
+}
+.blogs .left {
+	padding:50px 40px;
+}
+.blogs img {
+	display: block;
+	width: 100%;
+}
+.blogs nav {
+	position: relative !important;
+	text-align: center;
+	background: transparent;
+}
+.blogs nav .current, .blogs nav a{
+	text-decoration: none;
+	font: bold 12px 'futura-pt', sans-serif;
+	text-transform: uppercase;
+	color:#fff;
+	display: inline-block;height: 25px;
+	width: 25px;
+	text-align: center;
+	line-height: 25px;
+	background: #d9d9d9;
+}
+.blogs nav .current{
+	background: #bbd6d9;
+}
+.blogs nav .next, .blogs nav .last, .blogs nav .first, .blogs nav .prev {
+	display: none;
+}
+.blogs .author {
+	width: 100%;
+}
+.blogs .author .cf{
+	margin-bottom: 20px;
+}
+.blogs .author .image {
+	height: 80px;
+	width: 80px;
+	overflow: hidden;
+	position: relative;
+	border-radius: 50%;
+	display: inline-block;
+	float: left;
+}
+.blogs .author img {
+	height: 113px;
+	width: auto;
+    right: -37px;
+    position: absolute;
+}
+
+.blogs .author h3, .blogs .author h6 {
+	width: calc(100% - 80px);
+	width: -webkit-calc(100% - 80px);
+	width: -moz-calc(100% - 80px);
+	float: left;
+	padding-left: 25px;
+	line-height: initial;
+	margin: 0;
+}
+.blogs .author h3 {
+	margin-top:20px;
+	font-size: 18px;
+}
+.blogs .author h6 {
+	color: #999999;
+}
+.blogs .col-2 {
+	padding: 30px 20px;
+}
+.blogs .author {
+	margin-bottom: 30px;
+}
+/* Blog Show
+------------*/
+.blogshow .post {
+	background: #fff;
+	padding:50px;
+}
+.blogshow .post image{
+	width: 100%;
 }
 /*Fonts*/
 @charset "UTF-8";

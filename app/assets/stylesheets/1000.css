@@ -111,4 +111,18 @@
 	.t-timeline h6 {
 		padding-top: 60px;
 	}
+	.blogs .col.col-1{
+		width: calc(100% - 310px);
+	}
+	.blogs .col.col-2 {
+		width: 310px;
+		padding-left: 60px;
+	}
+	.blogs .item .right{
+		width: 290px;
+	}
+	.blogs .item .left {
+		width: auto;
+	}
+
 }

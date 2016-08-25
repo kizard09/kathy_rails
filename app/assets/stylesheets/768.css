@@ -158,8 +158,8 @@
 		vertical-align: middle;
 	}
 	.book .left img{
-		width: 	auto;
-		position: static;
+/*		width: 	auto;
+*/		position: static;
 	}
 	.book .left{
 		padding: 15px;
@@ -272,6 +272,26 @@
 	}
 	.feeds .wrap, .t-timeline, .i-timeline {
 		height: 360px;
+	}
+	/* BLOG
+	_________________*/
+	.blogs .col {
+		float: left;
+	}
+	.blogs .item {
+		width: 100%;
+	}
+	.blogs .item > div {
+		width: 50%;
+	}
+	.blogs .author img {
+		height: 113px;
+	}
+	.blogs .col.col-1{
+		width:calc(100% - 210px);
+	}
+	.blogs .col.col-2{
+		width: 210px;
 	}
 }
 @media (min-width: 820px){
