@@ -1,5 +1,9 @@
 class BlogPostsController < ApplicationController
+
+
   before_action :set_blog_post, only: [:show, :edit, :update, :destroy]
+
+  before_action :authenticate_user!, only: [:new, :edit, :create, :update, :destroy]
 
   # GET /blog_posts
   # GET /blog_posts.json
@@ -12,25 +16,21 @@ class BlogPostsController < ApplicationController
   # GET /blog_posts/1.json
   def show
     @comment = Comment.new 
-
   end
 
   # GET /blog_posts/new
 
   def new
-    before_filter :authenticate_user!
     @blog_post = BlogPost.new
   end
 
   # GET /blog_posts/1/edit
   def edit
-    before_filter :authenticate_user!
   end
 
   # POST /blog_posts
   # POST /blog_posts.json
   def create
-    before_filter :authenticate_user!
     @blog_post = BlogPost.new(blog_post_params)
 
     respond_to do |format|
