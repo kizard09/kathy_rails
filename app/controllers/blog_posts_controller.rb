@@ -35,8 +35,10 @@ class BlogPostsController < ApplicationController
 
     respond_to do |format|
       if @blog_post.save
+         
         format.html { redirect_to @blog_post, notice: 'Blog post was successfully created.' }
         format.json { render :show, status: :created, location: @blog_post }
+
       else
         format.html { render :new }
         format.json { render json: @blog_post.errors, status: :unprocessable_entity }

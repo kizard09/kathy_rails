@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   
+  resources :contact_users
   root 'site#home'
 
   get 'site/aboutme'
@@ -15,6 +16,8 @@ Rails.application.routes.draw do
   get 'site/contact'
 
   get 'site/book'
+
+  get 'site/contact_email'
 
   get 'your_posts' => 'blog_posts#your_posts'
   get 'user_posts' => 'blog_posts#user_posts'

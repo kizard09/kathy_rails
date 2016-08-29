@@ -1,6 +1,5 @@
 <div class="container">
   <div class="wrap-no cf">
-  <h2 style="color:black">NOOOOOOO</h2>
     <div class="blogs blogshow">
       <h3><%= link_to 'Back to Blogs', blog_posts_path %></h3>
       <div class="col col-1 cf">
@@ -19,13 +18,14 @@
   <div class="wrap-no">
   		<h4>Make a Comment</h4>
   	   <%= render 'comments/form' %>
-  </div>
+  
   <h2>Comments</h2>
     <% @blog_post.comments.each do |comment| %>
          <p><strong><%= link_to comment.user.username, user_posts_path(id: comment.user.id) %></strong> said:</p>
     		<p><%= comment.comment_entry %></p>
     	<% end %>
   <%= link_to 'Back to Blogs', blog_posts_path, class: 'button dblue' %>
+</div>
 </div>
 <%= render 'partials/feeds' %>
 <%= render 'partials/newsletter' %>
