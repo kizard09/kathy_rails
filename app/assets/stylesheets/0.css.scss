@@ -605,7 +605,7 @@ footer .primary a {
 }
 
 .review .wrap {
-	background: url(Reviews.png) no-repeat;
+	background-image: asset-data-url(Reviews.png) no-repeat;
 	height: 455px;
 	background-size: cover;
 	margin:40px auto;
@@ -694,7 +694,7 @@ footer .primary a {
 }
 
 .kathy .wrap {
-	background: url(kathy-back.jpg)no-repeat;
+	background-image: asset-data-url(kathy-back.jpg)no-repeat;
 	position: relative;
 	padding:30px 10px 70px;
 	margin-bottom: 40px;
@@ -731,7 +731,7 @@ footer .primary a {
 .news .wrap {
     padding: 20px;
     margin: 20px auto 40px;
-    background: url(newsletter.png) no-repeat 100% 100% ;
+    background-image: asset-data-url(newsletter.png) no-repeat 100% 100% ;
     background-size: cover;
 	-moz-box-shadow: 0px 2px 37px #666;
     -webkit-box-shadow: 0px 2px 37px #666;
@@ -770,7 +770,7 @@ footer .primary a {
 	box-shadow: 0px 2px 37px #666;
 }
 .whisper .wrap {
-	background: url(whats-your-whisper.png) no-repeat;
+	background-image: asset-data-url(whats-your-whisper.png) no-repeat;
 	background-size: cover;
 	padding: 40px 20px;
 }
@@ -954,7 +954,7 @@ _________________________*/
 	content: '';
     height: 70px;
     width: 90px;
-    background: url(feather.png) no-repeat;
+    background-image: asset-data-url(feather.png) no-repeat;
     background-size: contain;
     position: absolute;
     left: 0;
@@ -963,7 +963,7 @@ _________________________*/
 	content: '';
     height: 15px;
     width: 15px;
-    background: url(arrow.png) no-repeat;
+    background-image: asset-data-url(arrow.png) no-repeat;
     background-size: contain;
     position: absolute;
     top: 50%;
@@ -975,7 +975,7 @@ _________________________*/
 /* BOOK
 _______________*/
 .container.thsh .hero{
-	background: url(header-book.png) no-repeat;
+	background-image: asset-data-url(header-book.png) no-repeat;
 	background-size: cover;
 	padding:0;
 	position: relative;
@@ -1066,7 +1066,7 @@ _______________*/
 /* Speaking
 _____________*/
 .speak .hero .wrap{
-	background: url(speak-header.png) no-repeat center top;
+	background-image: asset-data-url(speak-header.png) no-repeat center top;
 	max-height: 340px;
 	background-size: auto 100% ;
 
@@ -1075,7 +1075,7 @@ _____________*/
 -----------------*/
 
 .container.blog .hero .wrap-no {
-	background: url(kathy-back.jpg) no-repeat center top;
+	background-image: asset-data-url(kathy-back.jpg) no-repeat center top;
 	max-height: 340px;
 	width: 100%;
 	text-align: center;
