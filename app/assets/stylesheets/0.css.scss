@@ -539,7 +539,9 @@ footer .primary a {
 }
 
 .container {
-	background: #f3f3f3 url(content.png) no-repeat ;
+	background-color: #f3f3f3;
+	background-image: asset-data-url(content.png) ;
+	background-repeat: no-repeat;
 	margin-top: -150px;
 	padding-top: 160px;
 	padding-bottom: 40px;
@@ -574,7 +576,9 @@ footer .primary a {
 }
 
 .book .left {
-	background: #e6e4e0 url(book-left.png) no-repeat;
+	background-color: #e6e4e0;
+	background-image: asset-data-url(book-left.png);
+	background-repeat: no-repeat;
 	background-size: cover;
 	float: none;
 	overflow: hidden;
@@ -605,7 +609,8 @@ footer .primary a {
 }
 
 .review .wrap {
-	background-image: asset-data-url(Reviews.png) no-repeat;
+	background-image: asset-data-url(Reviews.png);
+	background-repeat: no-repeat;
 	height: 455px;
 	background-size: cover;
 	margin:40px auto;
@@ -694,7 +699,8 @@ footer .primary a {
 }
 
 .kathy .wrap {
-	background-image: asset-data-url(kathy-back.jpg)no-repeat;
+	background-image: asset-data-url(kathy-back.jpg);
+	background-repeat: no-repeat;
 	position: relative;
 	padding:30px 10px 70px;
 	margin-bottom: 40px;
@@ -731,7 +737,9 @@ footer .primary a {
 .news .wrap {
     padding: 20px;
     margin: 20px auto 40px;
-    background-image: asset-data-url(newsletter.png) no-repeat 100% 100% ;
+    background-image: asset-data-url(newsletter.png); 
+    background-repeat: no-repeat;
+	background-position: center top;
     background-size: cover;
 	-moz-box-shadow: 0px 2px 37px #666;
     -webkit-box-shadow: 0px 2px 37px #666;
@@ -770,7 +778,8 @@ footer .primary a {
 	box-shadow: 0px 2px 37px #666;
 }
 .whisper .wrap {
-	background-image: asset-data-url(whats-your-whisper.png) no-repeat;
+	background-image: asset-data-url(whats-your-whisper.png);
+	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 40px 20px;
 }
@@ -896,7 +905,9 @@ _________________________*/
 	padding: 15px 0 0;
 }
 .about .hero .wrap{
-	background:url(mom_dad.png) no-repeat center;
+	background-image: asset-image-url(mom_dad.png);
+	background-repeat: no-repeat;
+	background-size: center top;
 }
 .about .words, .contact .words {
 	background: rgba(255,255,255,0.8);
@@ -954,7 +965,8 @@ _________________________*/
 	content: '';
     height: 70px;
     width: 90px;
-    background-image: asset-data-url(feather.png) no-repeat;
+    background-image: asset-data-url(feather.png);
+    background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
     left: 0;
@@ -963,7 +975,8 @@ _________________________*/
 	content: '';
     height: 15px;
     width: 15px;
-    background-image: asset-data-url(arrow.png) no-repeat;
+    background-image: asset-data-url(arrow.png);
+    background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
     top: 50%;
@@ -975,7 +988,8 @@ _________________________*/
 /* BOOK
 _______________*/
 .container.thsh .hero{
-	background-image: asset-data-url(header-book.png) no-repeat;
+	background-image: asset-data-url(header-book.png);
+	background-repeat: no-repeat;
 	background-size: cover;
 	padding:0;
 	position: relative;
@@ -1009,7 +1023,9 @@ _______________*/
 }
 /* Contact */
 .contact .hero .wrap{
-	background:url(contact-kathyizard.png) no-repeat center;
+	background:url(contact-kathyizard.png);
+	background-repeat: no-repeat;
+	background-position: center;
 }
 .feeds .wrap {
 	padding:0;
@@ -1066,7 +1082,9 @@ _______________*/
 /* Speaking
 _____________*/
 .speak .hero .wrap{
-	background-image: asset-data-url(speak-header.png) no-repeat center top;
+	background-image: asset-data-url(speak-header.png); 
+	background-repeat: no-repeat;
+	background-position: center top;
 	max-height: 340px;
 	background-size: auto 100% ;
 
@@ -1075,7 +1093,9 @@ _____________*/
 -----------------*/
 
 .container.blog .hero .wrap-no {
-	background-image: asset-data-url(kathy-back.jpg) no-repeat center top;
+	background-image: asset-data-url(kathy-back.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
 	max-height: 340px;
 	width: 100%;
 	text-align: center;
