@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   
+  resources :categories
+  resources :tags
   resources :contact_users
   root 'site#home'
 

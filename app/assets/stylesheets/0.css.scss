@@ -540,7 +540,7 @@ footer .primary a {
 
 .container {
 	background-color: #f3f3f3;
-	background-image: asset-data-url(content.png) ;
+	background-image: asset-data-url('content.png');
 	background-repeat: no-repeat;
 	margin-top: -150px;
 	padding-top: 160px;
@@ -555,8 +555,9 @@ footer .primary a {
 	padding: 25px;
 	float: none;
 }
-.bluebox p, .review p, .hero p {
+.bluebox p, .review p, .hero p, .bluebox p a {
 	color:#fff !important;
+	text-decoration: none;
 }
 .bluebox h3 {
 	color: #bbd6d9 !important;
@@ -577,7 +578,7 @@ footer .primary a {
 
 .book .left {
 	background-color: #e6e4e0;
-	background-image: asset-data-url(book-left.png);
+	background-image: asset-data-url('book-left.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	float: none;
@@ -609,7 +610,7 @@ footer .primary a {
 }
 
 .review .wrap {
-	background-image: asset-data-url(Reviews.png);
+	background-image: asset-data-url('Reviews.png');
 	background-repeat: no-repeat;
 	height: 455px;
 	background-size: cover;
@@ -699,7 +700,7 @@ footer .primary a {
 }
 
 .kathy .wrap {
-	background-image: asset-data-url(kathy-back.jpg);
+	background-image: asset-data-url('kathy-back.jpg');
 	background-repeat: no-repeat;
 	position: relative;
 	padding:30px 10px 70px;
@@ -737,7 +738,7 @@ footer .primary a {
 .news .wrap {
     padding: 20px;
     margin: 20px auto 40px;
-    background-image: asset-data-url(newsletter.png); 
+    background-image: asset-data-url('newsletter.png'); 
     background-repeat: no-repeat;
 	background-position: center top;
     background-size: cover;
@@ -778,7 +779,7 @@ footer .primary a {
 	box-shadow: 0px 2px 37px #666;
 }
 .whisper .wrap {
-	background-image: asset-data-url(whats-your-whisper.png);
+	background-image: asset-data-url('whats-your-whisper.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 40px 20px;
@@ -905,7 +906,7 @@ _________________________*/
 	padding: 15px 0 0;
 }
 .about .hero .wrap{
-	background-image: asset-image-url(mom_dad.png);
+	background-image: asset-data-url('mom_dad.png');
 	background-repeat: no-repeat;
 	background-size: center top;
 }
@@ -965,7 +966,7 @@ _________________________*/
 	content: '';
     height: 70px;
     width: 90px;
-    background-image: asset-data-url(feather.png);
+    background-image: asset-data-url('feather.png');
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
@@ -975,7 +976,7 @@ _________________________*/
 	content: '';
     height: 15px;
     width: 15px;
-    background-image: asset-data-url(arrow.png);
+    background-image: asset-data-url('arrow.png');
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
@@ -988,7 +989,7 @@ _________________________*/
 /* BOOK
 _______________*/
 .container.thsh .hero{
-	background-image: asset-data-url(header-book.png);
+	background-image: asset-data-url('header-book.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding:0;
@@ -1023,7 +1024,7 @@ _______________*/
 }
 /* Contact */
 .contact .hero .wrap{
-	background:url(contact-kathyizard.png);
+	background:url('contact-kathyizard.png');
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -1082,7 +1083,7 @@ _______________*/
 /* Speaking
 _____________*/
 .speak .hero .wrap{
-	background-image: asset-data-url(speak-header.png); 
+	background-image: asset-data-url('speak-header.png'); 
 	background-repeat: no-repeat;
 	background-position: center top;
 	max-height: 340px;
@@ -1093,7 +1094,7 @@ _____________*/
 -----------------*/
 
 .container.blog .hero .wrap-no {
-	background-image: asset-data-url(kathy-back.jpg);
+	background-image: asset-data-url('kathy-back.jpg');
 	background-repeat: no-repeat;
 	background-position: center top;
 	max-height: 340px;

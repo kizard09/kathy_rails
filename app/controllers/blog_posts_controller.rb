@@ -7,21 +7,33 @@ class BlogPostsController < ApplicationController
 
   # GET /blog_posts
   # GET /blog_posts.json
+
   def index
     @blog_posts = BlogPost.page(params[:page])
+    filtering_params(params).each do |key, value|
+      @blog_posts = @blog_posts.public_send(key, value) if value.present?
+    end
+    @categories = Category.all
+    @tags = Tag.all
     @first_blog = BlogPost.first
   end
+
 
   # GET /blog_posts/1
   # GET /blog_posts/1.json
   def show
     @comment = Comment.new 
+    @blog_posts = BlogPost.page(params[:page])
+    @tags = Tag.all
+    @categories = Category.all
   end
 
   # GET /blog_posts/new
 
   def new
     @blog_post = BlogPost.new
+    @categories = Category.all
+    @tags = Tag.all
   end
 
   # GET /blog_posts/1/edit
@@ -71,6 +83,10 @@ class BlogPostsController < ApplicationController
   end
 
   private
+  # A list of the param names that can be used for filtering the Product list
+    def filtering_params(params)
+      params.slice(:tag, :category)
+    end
     # Use callbacks to share common setup or constraints between actions.
     def set_blog_post
       @blog_post = BlogPost.find(params[:id])
@@ -78,6 +94,6 @@ class BlogPostsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def blog_post_params
-      params.require(:blog_post).permit(:title, :author, :blog_entry, :user_id)
+      params.require(:blog_post).permit(:title, :author, :blog_entry, :user_id, :image, :category_id, :tag_id)
     end
 end
