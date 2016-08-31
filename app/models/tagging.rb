@@ -1,4 +1,4 @@
 class Tagging < ActiveRecord::Base
-  belongs_to :blog_post
-  belongs_to :tag
+	belongs_to :post
+	belongs_to :tag
 end

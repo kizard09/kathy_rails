@@ -124,5 +124,41 @@
 	.blogs .item .left {
 		width: auto;
 	}
-
+	.hero .left {
+		width:60%;
+		padding: 40px 50px;
+	}
+	.hero .right {
+		padding:85px 20px 50px;
+		max-width: none;
+	}
+	.buy p {
+		max-width: 740px;
+	}
+	.buy .button {
+		right:115px;
+	}
+	.hero .right img{
+		max-width: 290px;
+		display: block;
+		margin:auto;
+	}
+	.hero .right {
+		width:40%;
+	}
+	.contact .col-1 {
+		width: 600px;
+	}
+	.contact .bio {
+		max-width: 100%;
+	}
+	.contact .col-2 {
+		width: 400px;
+	}
+}
+@media (max-width:1020px){
+	.secondary .wrap {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
 }

@@ -60,7 +60,7 @@
 		margin-left: 25px;
 	}
 	.home.tablet img{
-		width: 257px;
+		width: 215px;
 		position: absolute;
 		left: 0;
 	    right: 0;
@@ -71,7 +71,7 @@
 	    -moz-transform: translateY(-50%);
 	}
 	.scroll .home.tablet img{
-		width:130px;
+		width:110px;
 	}
 	.primary {
 		height: 90px;
@@ -148,19 +148,16 @@
 	#hero .owl-nav .owl-next{
 		left: 253px;
 	}
-	.book .wrap {
+	.book .wrap-no {
 		display: table;
 		height: 450px;
 	}
-	.book .wrap > div {
+	.book .wrap-no > div {
 		display: table-cell;
 		width: 50%;
 		vertical-align: middle;
 	}
-	.book .left img{
-/*		width: 	auto;
-*/		position: static;
-	}
+
 	.book .left{
 		padding: 15px;
 
@@ -271,7 +268,7 @@
 	 	padding: 30px 75px;
 	}
 	.feeds .wrap, .t-timeline, .i-timeline {
-		height: 360px;
+		height: 418px;
 	}
 	/* BLOG
 	_________________*/
@@ -299,33 +296,12 @@
 		margin: 10px auto;
 	}
 }
-@media (max-width:1020px){
-	.secondary .wrap {
-		padding-left: 10px;
-		padding-right: 10px;
+@media (min-width: 900px) {
+	.contact .col-1, .contact .col-2 {
+		width: 50%;
+		float: left
 	}
-}
-@media (min-width:1000px){
-	.hero .left {
-		width:60%;
-		padding: 40px 50px;
-	}
-	.hero .right {
-		padding:85px 20px 50px;
-		max-width: none;
-	}
-	.buy p {
-		max-width: 740px;
-	}
-	.buy .button {
-		right:115px;
-	}
-	.hero .right img{
-		max-width: 290px;
-		display: block;
-		margin:auto;
-	}
-	.hero .right {
-		width:40%;
+	.contact .col-2 {
+		padding-left: 20px;
 	}
 }

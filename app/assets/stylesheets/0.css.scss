@@ -542,12 +542,12 @@ footer .primary a {
 	background-color: #f3f3f3;
 	background-image: asset-data-url('content.png');
 	background-repeat: no-repeat;
-	margin-top: -150px;
-	padding-top: 160px;
+	margin-top: -60px;
+	padding-top: 100px;
 	padding-bottom: 40px;
 }
 .words h3 {
-	padding: 100px 0;
+	padding: 60px 0 100px;
 }
 
 .bluebox {
@@ -575,7 +575,9 @@ footer .primary a {
 	color: #71b4d5;
 	font-size:12px;
 }
-
+.book .wrap-no {
+	padding: 0;
+}
 .book .left {
 	background-color: #e6e4e0;
 	background-image: asset-data-url('book-left.png');
@@ -587,11 +589,10 @@ footer .primary a {
 	min-height: 400px;
 }
 .book .left img {
-	width: 100%;
-	width: 100%;
     bottom: 40px;
     position: absolute;
-    right: 16%;
+    left: 33%;
+    transform: translatex(-50%);
 }
 .book .left:after {
 	content: '';
@@ -726,6 +727,7 @@ footer .primary a {
 .kathy h3 {
 	color: #fff;
 	font-size: 36px;
+	text-align: center;
 }
 .quote img {
 	width: 300px;
@@ -737,7 +739,7 @@ footer .primary a {
 }
 .news .wrap {
     padding: 20px;
-    margin: 20px auto 40px;
+    margin: 40px auto 0px;
     background-image: asset-data-url('newsletter.png'); 
     background-repeat: no-repeat;
 	background-position: center top;
@@ -777,6 +779,9 @@ footer .primary a {
 	-moz-box-shadow: 0px 2px 37px #666;
 	-webkit-box-shadow: 0px 2px 37px #666;
 	box-shadow: 0px 2px 37px #666;
+}
+.whisper {
+	margin-top: 40px;
 }
 .whisper .wrap {
 	background-image: asset-data-url('whats-your-whisper.png');
@@ -908,7 +913,8 @@ _________________________*/
 .about .hero .wrap{
 	background-image: asset-data-url('mom_dad.png');
 	background-repeat: no-repeat;
-	background-size: center top;
+    background-position: center;
+    background-size: cover;
 }
 .about .words, .contact .words {
 	background: rgba(255,255,255,0.8);
@@ -952,9 +958,9 @@ _________________________*/
 }
 .pop-let {
 	position: relative;
-    width: 300px;
+	width: 291px;
     display: block;
-    padding-left: 110px;
+    padding-left: 95px;
     font: 700 12px/70px 'futura-pt', verdana, sans-serif;
     color: #487497;
     text-transform: uppercase;
@@ -1028,6 +1034,25 @@ _______________*/
 	background-repeat: no-repeat;
 	background-position: center;
 }
+.new_contact_user input[type="text"]  {
+	line-height:55px;
+    color: #666;
+    height:55px;
+}
+.new_contact_user textarea {
+	color: #666;
+	padding: 10px;
+	height: 170px;
+	margin-bottom: 20px;
+}
+.new_contact_user {
+	margin-bottom: 130px;
+}
+address h6, .contact address p {
+	color: #487497;
+	line-height: 25px;
+}
+/*partials*/
 .feeds .wrap {
 	padding:0;
 }
@@ -1064,6 +1089,7 @@ _______________*/
 .t-timeline h6 {
 	padding-left: 10px;
 	margin:0;
+	margin-top: 20px;
 	line-height: 12px;
 
 }
@@ -1080,6 +1106,20 @@ _______________*/
 	font-size: 16px;
 	top: 0;
 }
+.i-timeline h6 a:before {
+	right: -60px;
+}
+.thanks {
+	min-height: 550px;
+}
+.thanks .bluebox{
+	max-width: 400px;
+	margin:auto;
+	margin-top: 40px;
+}
+.thanks img{
+	width:280px;
+}
 /* Speaking
 _____________*/
 .speak .hero .wrap{
@@ -1093,7 +1133,7 @@ _____________*/
 /* BLOG
 -----------------*/
 
-.container.blog .hero .wrap-no {
+.blog .hero .wrap-no {
 	background-image: asset-data-url('kathy-back.jpg');
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -1102,23 +1142,23 @@ _____________*/
 	text-align: center;
 	display: table;
 }
-.container.blog .hero .wrap-no div{
+.blog .hero .wrap-no div{
 	display: table-cell;
 	vertical-align: middle
 }
-.container.blog  p{
+.blog  p{
 	color:#666666;
 	margin-bottom: 17px;
 }
-.container.blog h6{
+.blog h6{
 	color: #fff
 }
-.container.blog h4{
+.blog h4{
 	color: #71b4d5;
 	margin: 5px 0;
 	font: 16px 'adobe-caslon-pro', serif;
 }
-.container.blog .hero .wrap-no:after {
+.blog .hero .wrap-no:after {
 	display: none;
 }
 .blogs .item {

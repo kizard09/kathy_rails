@@ -1,9 +1,12 @@
 Rails.application.routes.draw do
   
   resources :categories
-  resources :tags
+  # resources :tags
   resources :contact_users
+
   root 'site#home'
+
+  get 'tags/:tag', to: 'posts#index', as: "tag"
 
   get 'site/aboutme'
 

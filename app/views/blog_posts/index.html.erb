@@ -1,4 +1,4 @@
-<div class="container blog">
+<div class="blog">
 <div class="hero">
   <div class="wrap-no">
     <div>
@@ -10,6 +10,7 @@
     </div>
   </div>
 </div>
+<div class="container">
 <div class="wrap-no cf">
   <div class="blogs">
     <div class="col col-1 cf">
@@ -20,16 +21,16 @@
             <h4><%= blog_post.created_at %></h4>
             <p><%= truncate(blog_post.blog_entry, :length => 250) %></p>
             <!-- NEED TO UPDATE -->
-            <% @tags.each do |t| %>
-              <%= t.name %>
-            <% end %>
+            <%=raw tag_links(blog_post.all_tags)%>
           </div>
           <div class="right">
             <%= image_tag blog_post.image %>
           </div>
           
         </div>
+
       <% end %>
+
       <%= paginate @blog_posts %>
     </div>
 
@@ -39,6 +40,7 @@
   </div>
 <%= render 'partials/feeds' %>
 <%= render 'partials/newsletter' %>
+</div>
 </div>
 
 

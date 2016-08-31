@@ -1,29 +1,9 @@
-<p id="notice"><%= notice %></p>
-
-<p>
-  <strong>Name:</strong>
-  <%= @contact_user.name %>
-</p>
-
-<p>
-  <strong>First name:</strong>
-  <%= @contact_user.first_name %>
-</p>
-
-<p>
-  <strong>Last name:</strong>
-  <%= @contact_user.last_name %>
-</p>
-
-<p>
-  <strong>Email:</strong>
-  <%= @contact_user.email %>
-</p>
-
-<p>
-  <strong>Message:</strong>
-  <%= @contact_user.message %>
-</p>
-
-<%= link_to 'Edit', edit_contact_user_path(@contact_user) %> |
-<%= link_to 'Back', contact_users_path %>
+<div class="container thanks">
+<div class='wrap'>
+  <div class='bluebox'>
+    <h3>Thank you for contacting me, <%= @contact_user.name %>!</h3>
+    <p>I will return your message as soon as possible.</p>
+    <%= image_tag 'sig-white.png' %>
+  </div>
+  </div>
+</div>
