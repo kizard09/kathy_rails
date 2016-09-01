@@ -4,6 +4,6 @@ class ContactMailer < ApplicationMailer
 	def contact_email(contact_user)
 	    @contact_user = contact_user
     	@url  = 'http://google.com/'
-	    mail(to: 'kailey.izard@gmail.com', subject: 'fdas')
+	    mail(to: 'kailey.izard@gmail.com', subject: 'New Contact Submission')
   	end
 end
