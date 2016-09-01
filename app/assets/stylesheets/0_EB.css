@@ -61,7 +61,6 @@ blockquote:before {
 .pre-order {
 	background-color: #3F7398;
 	box-sizing: border-box;
-	-webkit-box;
 	width: calc(100% - 30px);
 	width: -webkit-calc(100);
 	margin: 15px;
