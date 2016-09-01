@@ -562,6 +562,7 @@ footer .primary a {
 }
 .words h3 {
 	padding: 60px 0 100px;
+	text-align:center;
 }
 
 .bluebox {
@@ -764,8 +765,8 @@ footer .primary a {
     box-shadow: 0px 2px 37px #666;
 }
 .news p {
-	color:#487497;
-	font-size:21px;
+	color:#487497 !important;
+	font:21px/24px 'adobe-caslon-pro', serif !important;
 }
 .news h6 {
 	line-height: 24px;
