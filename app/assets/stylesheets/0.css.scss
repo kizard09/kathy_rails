@@ -207,6 +207,7 @@ nav .mobile {
 	height: 15px;
 	position: absolute;
 	right: 20px;
+	z-index: 1000;
 	top:50%;
 	transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
