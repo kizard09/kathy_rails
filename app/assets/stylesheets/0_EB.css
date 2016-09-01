@@ -60,8 +60,8 @@ blockquote:before {
 
 .pre-order {
 	background-color: #3F7398;
-	/*KI - Media queries*/
 	box-sizing: border-box;
+	-webkit-box;
 	width: calc(100% - 30px);
 	width: -webkit-calc(100);
 	margin: 15px;
@@ -132,11 +132,11 @@ blockquote:before {
 }
 
 
-
+/*test*/
 
 /* READERS GUIDE */
 
-.readersguide {
+.lgt-blue-box {
 	position: relative;
 	background-color: #BCD8D7;
 	height: 85px;
@@ -177,41 +177,223 @@ blockquote:before {
 	width: 100%;
 	display: block;
 	margin: 0 auto;
+	margin-bottom: 15px;
 }
 
-.solomon-intro {
-	background-color: #3F7398;
-	box-sizing: border-box;
-/*	-webkit-box;
-*/	width: calc(100% - 30px);
-	width: -webkit-calc(100);
-	margin: 15px;
+.solomon-video {
+	 margin-top: 60px;
+}
+
+.header-moore .bluebox {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.main-content {
+	padding-top: 25px;
+}
+
+.main-content p {
+	padding-right: 20px;
+	padding-bottom: 25px;
+}
+
+.img-with-text img {
+	width: 100%;
+}
+
+.img-with-text p {
+
+	font-size: 14px;
+	margin: 0 15px;
+}
+
+.about-moore h6 {
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+
+.about-moore a {
+		text-decoration: none;
+	}
+
+.moore-background {
+	background: url(../img/BKGND.png);
+}
+
+/* Owl Carousel */
+
+
+#group-one {
+  margin: 3px;
+}
+#group-one .item img{
+  display: block;
+  width: 100%;
+  max-height: 333px;
+}
+
+
+/* Quotes */
+
+.quote-block h6 {
+	margin-top: 15px;
+}
+
+.moore-quotes .quote-block {
+	text-align: center;
+	margin: 52px 25px;
+}
+
+.moore-carousel .item {
+	position: relative;
+}
+.moore-carousel .hover {
+	position: absolute;
+	top: 0;
+	opacity: 0;
+}
+
+.moore-carousel .item:hover .hover {
+	opacity: 1;
 
 }
 
-.container-moore {
+.moore-carousel .item:hover img {
+	opacity: 0.4;
+}
+
+.moore-carousel .hover h3 {
 	margin: 25px;
-	text-align: left;
-	padding: 15px;
+	padding: 6px;
 }
 
-.container-moore h6 {
-	line-height: 2px;
-    margin-bottom: 32px;
-    font: 12px 'futura-pt', verdana, sans-serif;
-    color: #9DCCE2;
-    font-weight: bold;
+.moore-carousel .hover p {
+	font-size: 17px;
+	margin: 25px;
+	padding: 6px;
 }
 
-.container-moore .headline {
-	margin: 0;
+.moore-carousel .owl-dots{
+	position: absolute;
+	width: 30px;
+	left:0;
+	right:0;
+	margin:auto;
+}
+
+.moore-carousel .owl-dots .owl-dot span {
+	height: 10px;
+	width: 10px;
+	display: inline-block;
+	border:1px solid #575757;
+	border-radius: 50%;
+	margin-bottom: 5px;
+}
+
+.moore-carousel .owl-dots .owl-dot.active span {
+	background: #575757;
+}
+
+.owl-dot {
+	display: inline-block;
 }
 
 
+/*******************
+	ABOUT YOU
+********************/
+
+.resources li {
+	font:18px/24px 'adobe-caslon-pro', serif;
+	color: #487497;
+	padding: 7px 0;
+	line-height: 30px;
+}
+
+.about-you-header {
+	width: 100%;
+}
+
+.jumbo-tron .lblue {
+	margin-bottom: 11px;
+}
+
+.lgt-blue-box h6 {
+	line-height: 80px;
+	text-align: center;
+	color: #3F7398;
+}
+
+.lgt-blue-box::before {
+	content: url(../img/jumpstart_logo.png);
+	position: absolute;
+	bottom: 24px;
+    left: 26px;
+}
+
+.lgt-blue-box::after {
+	content: url(../img/arrowright.png);
+	position: absolute;
+	bottom: -1.9px;
+    right: -11px;
+}
+.col2 .bluebox {
+	margin-top: 25px;
+}
+
+.jumbo-tron {
+	text-align: center;
+	background: url(../img/aboutYouHeader.png) no-repeat top center;
+	background-size: cover;
+	overflow: hidden;
+	padding-top: 60px;
+}
+
+.about-you-portrait {
+	text-align: center;
+	background: url(../img/AboutYou-portrait.png) no-repeat top center;
+	background-size: cover;
+
+}
+
+.image-content {
+
+  height: 400px;
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+
+}
+
+.image-share-text {
+	width: 150px;
+}
+
+.image-share-text h3 {
+	margin-left: 15px;
+	font-size: 12px;
+	color: #fff;
+	padding-bottom: 10px;
+
+}
 
 
-
-
-
-
-
+.image-share-text .sm-button {
+    width: 50px;
+    height: 20px;
+	color: #fff;
+	margin-left: 14px;
+	border:1px solid #fff;
+	border-radius: 30px;
+	letter-spacing: 2px;
+	display: inline-block;
+	font: bold 8px/20px 'futura-pt', verdana, sans-serif;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+}

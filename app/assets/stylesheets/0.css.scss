@@ -303,6 +303,14 @@ nav .mobile {
 .social a:hover:before{
 	color: #fff;
 }
+.mobile.name {
+	text-align: center;
+	font: 20px/40px 'futura-pt', verdana, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	width: 100%;
+	display: inline-block;
+}
 .secondary{
 	position: absolute;
 	bottom:0;
@@ -322,18 +330,23 @@ nav .mobile {
 	width: 70%;
 	border-color: #fff;
 	line-height: 40px;
+
 }
 .secondary .left {
     position: absolute;
-    bottom: 20px;
+    bottom: 22px;
     width: 200px;
+}
+.secondary .left .button{
+	margin-left: 10px;
+	margin-top:10px;
 }
 .secondary .social a:first-of-type {
 	margin-left: 10px;
 }
 .secondary .right {
     position: absolute;
-    bottom: 73px;
+    bottom: 104px;
     width: 200px;
 }
 .primary a {
@@ -680,6 +693,7 @@ footer .primary a {
 	position: absolute;
 	width: 30px;
 	left:0;
+	bottom: 0;
 	right:0;
 	margin:auto;
 }
@@ -1079,11 +1093,8 @@ address h6, .contact address p {
 	margin-top:18px;
 	line-height: 12px;
 }
-.i-timeline h6 a{
-	color:#487497;
-	position: relative;
-}
-.contaienr .i-timeline h6 a:hover, .container .t-timeline h6 a:hover{
+
+.container .i-timeline h6 a:hover, .container .t-timeline h6 a:hover{
 	text-decoration: underline;
 }
 .t-timeline h6 {
@@ -1097,7 +1108,9 @@ address h6, .contact address p {
 	color: #71b4d5;
 	position: relative;
 	text-decoration: none;
-
+}
+.container .i-timeline h6 a{
+	color:#487497;
 }
 .t-timeline h6 a:before, .i-timeline h6 a:before {
 	position: absolute;
@@ -1109,6 +1122,7 @@ address h6, .contact address p {
 .i-timeline h6 a:before {
 	right: -60px;
 }
+
 .thanks {
 	min-height: 550px;
 }
@@ -1146,12 +1160,29 @@ _____________*/
 	display: table-cell;
 	vertical-align: middle
 }
+.blog .author h6 .icon-angle-right:before {
+	font-weight: bold !important;
+	position: absolute;
+	right:-25px;
+	top: 2px;
+}
+.blog .author h6 .icon-angle-right {
+	line-height: initial;
+	position: relative;
+	text-decoration: none
+}
+.blog .author h6 .icon-angle-right:hover {
+	text-decoration: underline;
+}
 .blog  p{
 	color:#666666;
 	margin-bottom: 17px;
 }
 .blog h6{
 	color: #fff
+}
+.blog .news h6 {
+	color: #71b4d5
 }
 .blog h4{
 	color: #71b4d5;
@@ -1222,7 +1253,7 @@ _____________*/
     position: absolute;
 }
 
-.blogs .author h3, .blogs .author h6 {
+.blogs .author .cf h3, .blogs .author .cf h6 {
 	width: calc(100% - 80px);
 	width: -webkit-calc(100% - 80px);
 	width: -moz-calc(100% - 80px);

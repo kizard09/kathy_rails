@@ -1,0 +1,171 @@
+@media screen and (min-width:1000px){
+	.desktop {
+		display: block;
+	}
+	.secondary .right {
+		margin-top: 10px;
+	}
+	.hero .wrap {
+		height: 450px;
+		background-size: cover;
+	}
+	#hero , #hero  .owl-stage-outer{
+	    width: 970px !important;
+	    height: 400px !important;
+	}
+	#hero .owl-item:not(.center) img {
+		height: 270px;
+		width: auto;
+	}
+	#hero .owl-item.center img {
+		height: 400px;
+		width: auto
+	}
+	#hero .owl-nav .owl-prev{
+		left: 187px;
+	}
+	#hero .owl-nav .owl-prev, #hero .owl-nav .owl-next{
+		bottom: -13px;
+	}
+	.num {
+		bottom: 35px;
+	}
+	.review .wrap {
+		height: 270px;
+	}
+
+	#testimonials {
+		width: 790px;
+	}
+	#testimonials .owl-dots {
+		margin: 0;
+		width: auto;
+		left: auto;
+		right: -45px;
+		top:65%;
+		transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+	}
+	#testimonials .owl-dots .owl-dot{
+		display: block;
+	}
+	#testimonials .item {
+    	width: 790px !important;
+    }
+	.kathy .wrap {
+		padding-left:65px;
+	}
+	.kathy .quote {
+		width: auto;
+	}
+	.kathy p {
+		font-size: 24px;
+	}
+	.whisper .wrap {
+		padding: 73px 20px;
+	}
+	.bio {
+		max-width: calc(100% - 290px);
+		max-width: -webkit-calc(100% - 290px);
+		max-width: -moz-calc(100% - 290px);
+	}
+	.about .container {
+		position: relative;
+	}
+	.polaroids {
+		position: absolute;
+		right: 0;
+		top: 220px;
+	}
+	.polaroids img{
+		margin-left:auto;
+	}
+	.polaroids img:nth-of-type(2){
+		margin:50px 0;
+		display: block;
+	}
+	.container.thsh .hero{
+		padding-bottom: 20px;
+	}
+	.container.thsh .hero .right img{
+		height: 390px;
+		width: auto;
+	}
+	.container.thsh .hero .left {
+		padding: 40px 0px 0px 50px;
+	}
+	.thsh .hero .right {
+		margin:0;
+	}
+	.col1{
+		width: calc(100% - 260px);
+		width: -webkit-calc(100% - 260px);
+		width: -moz-calc(100% - 260px);
+	}
+	.col2{
+		width: 250px;
+	}
+	.contact .hero .wrap {
+		height: 340px;
+	}
+	.feeds .wrap, .t-timeline, .i-timeline {
+		height: 450px;
+	}
+	.t-timeline h6 {
+		padding-top: 60px;
+	}
+	.blogs .col.col-1{
+		width: calc(100% - 310px);
+	}
+	.blogs .col.col-2 {
+		width: 310px;
+		padding-left: 60px;
+	}
+	.blogs .item .right{
+		width: 290px;
+	}
+	.blogs .item .left {
+		width: auto;
+	}
+	.hero .left {
+		width:60%;
+		padding: 40px 50px;
+	}
+	.hero .right {
+		padding:85px 20px 50px;
+		max-width: none;
+	}
+	.buy p {
+		max-width: 740px;
+	}
+	.buy .button {
+		right:115px;
+	}
+	.hero .right img{
+		max-width: 290px;
+		display: block;
+		margin:auto;
+	}
+	.hero .right {
+		width:40%;
+	}
+	.contact .col-1 {
+		width: 600px;
+	}
+	.contact .bio {
+		max-width: 100%;
+	}
+	.contact .col-2 {
+		width: 400px;
+	}
+	.news .wrap {
+    	padding: 45px 60px;
+	}
+}
+@media (max-width:1020px){
+	.secondary .wrap {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}

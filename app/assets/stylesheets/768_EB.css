@@ -2,13 +2,13 @@
 
 	.col1 {
 		float: left;
-		width: 60%;
+		width: 55%;
 		padding-right: 40px;
 	}
 
 	.col2 {
 		float: right;
-		width: 40%;
+		width: 45%;
 	}
 
 	.col1,
@@ -26,29 +26,23 @@
     	margin-top: 30px;
 }
 
-/* PRE-ORDER BOX */
+	/* PRE-ORDER BOX */
 
 	.pre-order {
 		background-color: #3F7398;
 		
 	}
 	
-	.earlyorder {
-		font-size: 16px;
-		color: #fff;
-		line-height: 20px;
-		padding-bottom: 3px;
-	}
 
 	.container-box {
 		text-align: left;
 	}
 
-/* AUTHOR VIDEO BOX */
+	/* AUTHOR VIDEO BOX */
 
 	
 
-/* READERS GUIDE */
+	/* READERS GUIDE */
 
 	.readersguide {
 		background-color: #BCD8D7;
@@ -69,5 +63,175 @@
 	
 }
 
+/*************** 
+MOORE PLACE 
+****************/
+
+	.videoSol {
+		float: left;
+		width: 50%;
+	}
+
+	.header-moore .bluebox {
+		float: right;
+		height: 310px;
+		width: 50%;
+		padding: 33px;
+		line-height: 5;
+	}
+
+	.main-content {
+		float: left;
+		width: 65%;
+	}
+
+	.img-with-text {
+		float: right;
+		width: 35%;
+		padding-top: 30px;
+	}
+
+	.about-moore {
+		padding-bottom: 70px;
+	}
+
+	.about-moore p {
+		text-align: left;
+
+		}
+
+	.about-moore::after {
+		content: url(../img/arrowright.png);
+		position: absolute;
+    	bottom: 44px;
+    	left: 50px;
+	}
+
+	.about-moore h6 {
+		text-align: left;
+	}
+
+
+	#slide-1
+	#slide-2
+	#slide-3
+	#slide-4
+	#slide-5
+	#slide-6
+	#slide-7
+	#slide-8
+	#slide-9 {
+		width: 100%;
+	}
+
+	#slide-1 {
+		margin-left: 32px;
+    	margin-top: -94px;
+	}
+
+	.moore-carousel .slide-1 h3 {
+		padding-left: 52px;
+		margin: 0 25px;
+	}
+
+	.moore-carousel .slide-1 p {
+		margin-left: 78px;
+	}
+
+	#slide-2 {
+		margin-left: 236px;
+		margin-top: -30px;
+	}
+
+	.moore-carousel .slide-2 h3 {
+		width: 250px;
+		margin: 0 0 0 273px;
+
+	}
+
+	.moore-carousel .slide-2 p {
+		margin-left: 268px;
+	}
+
+	#slide-3 {
+		margin-top: 213px;
+		margin-left: -448px;
+	}
+
+
+	.moore-carousel .slide-3 h3 {
+		padding-top: 56px;
+		margin-left: -402px;
+		margin-top: 175px;
+
+	}
+
+	.moore-carousel .slide-3 p {
+		margin-left: -402px;
+		padding-right: 380px;
+		margin-top: 51px;
+	}
+
+	#slide-4 {
+		margin-left: 92px;
+    	margin-top: -51px;
+	}
+
+	#slide-5 {
+		margin-left: 192px;
+		margin-top: 5px;
+	}
+
+	#slide-6 {
+		height: 253px;
+    	margin-top: 229px;
+		margin-left: -447px;
+	}
+
+	/* Quotes */
+
+	.moore-quotes .quote-block {
+		margin: 25px;
+		padding-top: 25px;
+	}
+
+	.moore-quotes {
+		padding-bottom: 130px;
+	}
+
+
+	.moore-carousel .item  {
+		display: inline-block;
+		float: left;
+		width: 33%;
+	}
+
+
+
+/*************** 
+ABOUT YOU
+****************/
+
+
+	.resources .col1 {
+		width: calc(100% - 270px);
+		width: -webkit-calc(100% - 270px);
+		width: -moz-calc(100% - 270px);
+	}
+
+	.resources .col2 {
+		width: 270px;
+	}
+
+	.jumbo-tron {
+		min-height: 470px;
+	}
+
+	.jumbo-tron h1 {
+		padding: 35px;
+	}
 
 }
+
+
+
