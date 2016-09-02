@@ -1050,14 +1050,14 @@ _________________________*/
 }
 /* BOOK
 _______________*/
-.container.thsh .hero{
+.thsh .hero{
 	background-image: asset-data-url('header-book.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding:0;
 	position: relative;
 }
-.thsh.container > .wrap {
+.thsh > .wrap {
 	padding:0;
 }
 .thsh .hero:after {

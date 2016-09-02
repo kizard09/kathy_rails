@@ -1,23 +1,37 @@
 @media screen and (min-width: 1000px){
 
+
 	.thsh .hero .right {
      	margin-top: 30px; 
 	}
-	.col1,
-	.col2 {
+
+		.readersguide::before {
+		content: url(../img/bookicon.png);
+		position: absolute;
+		bottom: -3px;
+		left: -15px;
+	}
+
+	.readersguide::after {
+		content: url(../img/arrowright.png);
+		position: absolute;
+		bottom: -5.9px;
+	}
+
+	.col {
 
 		padding:0;
 	}
 
 	.col1 {
 		float: left;
-		width: 600px;
+		width: 750px;
 		padding-right: 40px;
 	}
 
 	.col2 {
 		float: right;
-		width: calc(100% - 600px);
+		width: calc(100% - 750px);
 	}
 
 
@@ -37,52 +51,52 @@ MOORE PLACE
 		padding: 33px;
 	}
 
-
-	.image-share-text h3 {
-		margin-left: 15px;
-		font-size: 12px;
-		color: #fff;
-		padding-bottom: 30px;
-
+	.quote-block h3 {
+		margin: 14px 35px;
 	}
 
+
 	#slide-1 {
-		margin-left: -100px;
-    	margin-top: 25px;
+		margin-left: -150px;
+    	margin-top: -50px;
 	}
 
 	.moore-carousel .slide-1 h3 {
-		padding-top: 56px;
-		margin-left: -102px;
+		padding: 0;
+		margin: 104px 0px 0 36px;
 
 	}
 
 	.moore-carousel .slide-1 p {
-		margin-left: -57px;
+		padding: 0;
+		margin: 10px 11px 0 39px;
 	}
 
 	#slide-2 {
-		margin-left: 33px;
+		padding: 0;
+		margin-left: 156px;
 	}
 
 	.moore-carousel .slide-2 h3 {
-		padding-right: 33px;
-		margin-left: 65px;
+		padding: 0;
+    	margin-left: 38px;
+    	margin-right: -4px;
 
 	}
 
 	.moore-carousel .slide-2 p {
-		margin-left: 68px;
+		margin: 5px 51px 0px 40px;
+		padding: 0;
 	}
 
 	#slide-3 {
-		margin-top: 56px;
+		margin-top: 46px;
 		margin-left: 0;
 	}
 
 	.moore-carousel .slide-3 h3 {
-		padding: 56px 0 0 0;
-		margin: 25px;
+		padding: 0;
+		margin: 61px 0 11px 25px;
 
 	}
 
@@ -93,45 +107,126 @@ MOORE PLACE
 	
 
 	#slide-4 {
-		margin-top: 40px;
-		margin-left: -88px;
+		margin-top: -12px;
+		margin-left: -87px;
+	}
+
+	.moore-carousel .slide-4 h3 {
+		margin-top: 47px;
+		margin-left: 28px;
+
+	}
+
+	.moore-carousel .slide-4 p {
+		margin-left: 32px;
+		margin-right: 33px;
+		padding: 0;
 	}
 
 	#slide-5 {
-		margin-top: 0;
-		margin-left: 17px;
+		margin-top: 13px;
+		margin-left: -6px;
+	}
+
+	.moore-carousel .slide-5 h3 {
+		padding: 15px;
+		margin-top: 32px;
+		margin-left: 23px;
+
+	}
+
+	.moore-carousel .slide-5 p {
+		margin-left: 30px;
+		padding: 0;
+		margin-top: 0px;
 	}
 
 	#slide-6 {
-		margin-left: 130px;
-		margin-top: 70px;
-		height: 253px;
-    	display: block;
+		margin-left: 101px;
+		margin-top: -1px;
+	}
 
+	.moore-carousel .slide-6 h3 {
+		padding: 0;
+		margin: 51px 0px 0 39px;
+
+	}
+
+	.moore-carousel .slide-6 p {
+	    margin-left: 24px;
+	    margin-right: 80px;
+	    padding: 0 0 0 13px;
 	}
 
 	#slide-7 {
 		margin-top: 38px;
-		margin-left: -100px;
+		margin-left: -181px;
+	}
+
+	.moore-carousel .slide-7 h3 {
+		padding: 0;
+		margin: 46px 0px 15px 38px;
+
+	}
+
+	.moore-carousel .slide-7 p {
+		padding: 0;
+		margin: 0 61px 0 36px;
 	}
 
 	#slide-8 {
 		margin-top: 0;
-		margin-left: 0;
+		margin-left: 157px;
+	}
+
+	.moore-carousel .slide-8 h3 {
+		margin: 36px 50px 17px 31px;
+
+	}
+
+	.moore-carousel .slide-8 p {
+		margin: 7px 66px 0 33px;
+		padding: 0;
 	}
 
 	#slide-9 {
 		margin-top: 50px;
-		margin-left: -18px;
+		margin-left: 25px;
 	}
 
+	.moore-carousel .slide-9 h3 {
+		padding: 0;
+		margin: 37px 0px 0 42px;
+
+	}
+
+	.moore-carousel .slide-9 p {
+		padding: 0;
+		margin: 11px -85px 0 40px;
+	}
+
+
+/*************** 
+ABOUT YOU 
+****************/
+
+	.box-model .col1 {
+		padding-left: 142px;
+	}
+
+	.image-share-text h3 {
+		margin: -7px 63px 14px -72px;
+	    font-size: 18px;
+	    color: #fff;
+	    padding-bottom: 10px;
+
+	}
 
 	.image-share-text .button {
 		   width: 85px;
 		   height: 32px;
 		   color: #fff;
-		   margin-left: 14px;
-		   margin-bottom: 45px;
+		   margin: 0px 73px 45px -68px;
 		   border: 1px solid #fff;
 		   border-radius: 30px;
 		   letter-spacing: 2px;
@@ -145,7 +240,7 @@ MOORE PLACE
 
 	.about-you-portrait img {
 		position: absolute;
-		right: -162px;
+		right: -89px;
 		z-index: -1;
 		top: -167px;
 	}
@@ -156,4 +251,15 @@ MOORE PLACE
 		background: none;
 	}
 
+	.about-you-boxes .lgt-blue-box h6 {
+	    margin: 0px 31px -74px 45px;
+	    padding-top: 29px;
+	    line-height: 1;
+	    text-align: left;
+	}
+
+	.about-you-boxes .bluebox{
+		margin-right: 300px;
+    	margin-left: 123px;
+	}
 }

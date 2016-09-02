@@ -48,12 +48,17 @@
 		background-color: #BCD8D7;
 		height: 83px;
 
-}
+}	
+	.readersguide h6 {
+		margin: 19px 23px -74px 55px;
+		line-height: 1;
+		font: 700 12px/82px 'futura-pt', verdana, sans-serif;
+	}
 
 	.readersguide::before {
-	content: url(../img/bookicon.png);
-	position: absolute;
-	bottom: 0;
+		content: url(../img/bookicon.png);
+		position: absolute;
+		bottom: 0;
 }
 
 	.readersguide::after {
@@ -67,6 +72,7 @@
 MOORE PLACE 
 ****************/
 
+
 	.videoSol {
 		float: left;
 		width: 50%;
@@ -78,6 +84,7 @@ MOORE PLACE
 		width: 50%;
 		padding: 33px;
 		line-height: 5;
+		font: 15px/21px 'adobe-caslon-pro', serif;
 	}
 
 	.main-content {
@@ -97,19 +104,11 @@ MOORE PLACE
 
 	.about-moore p {
 		text-align: left;
+		margin-right: 359px;
 
-		}
-
-	.about-moore::after {
-		content: url(../img/arrowright.png);
-		position: absolute;
-    	bottom: 44px;
-    	left: 50px;
 	}
 
-	.about-moore h6 {
-		text-align: left;
-	}
+
 
 
 	#slide-1
@@ -125,67 +124,150 @@ MOORE PLACE
 	}
 
 	#slide-1 {
-		margin-left: 32px;
+		margin-left: -14px;
     	margin-top: -94px;
+    	padding-top: 40px;
 	}
 
 	.moore-carousel .slide-1 h3 {
-		padding-left: 52px;
-		margin: 0 25px;
+		padding: 0px;
+		margin: 90px -42px 17px 30px;
 	}
 
 	.moore-carousel .slide-1 p {
-		margin-left: 78px;
+		margin-left: 30px;
+    	margin-right: -71px;
+    	padding: 0;
 	}
 
 	#slide-2 {
-		margin-left: 236px;
-		margin-top: -30px;
+		margin-left: 201px;
+		margin-top: 23px;
 	}
 
 	.moore-carousel .slide-2 h3 {
-		width: 250px;
-		margin: 0 0 0 273px;
+		margin: 35px -25px 0 27px;
+		padding: 0;
 
 	}
 
 	.moore-carousel .slide-2 p {
-		margin-left: 268px;
+		padding: 0;
+		margin: 7px 6px 0 54px;
 	}
 
 	#slide-3 {
 		margin-top: 213px;
-		margin-left: -448px;
+		margin-left: -584px;
+		padding-top: 32px;
 	}
 
 
 	.moore-carousel .slide-3 h3 {
-		padding-top: 56px;
-		margin-left: -402px;
-		margin-top: 175px;
+		padding: 0;
+		margin: 60px 0 0 32px;
 
 	}
 
 	.moore-carousel .slide-3 p {
-		margin-left: -402px;
-		padding-right: 380px;
-		margin-top: 51px;
+		padding: 0;
+		margin: 20px -25px 0 34px;
 	}
 
 	#slide-4 {
-		margin-left: 92px;
+		margin-left: 16px;
     	margin-top: -51px;
 	}
 
+	.moore-carousel .slide-4 h3 {
+		padding-top: 0;
+		margin: 40px -100px 0 24px;
+
+	}
+
+	.moore-carousel .slide-4 p {
+		padding: 0;
+		margin: 21px -28px 0 37px;
+	}
+
 	#slide-5 {
-		margin-left: 192px;
-		margin-top: 5px;
+		margin-left: 69px;
+		margin-top: 52px;
+	}
+
+	.moore-carousel .slide-5 h3 {
+		padding: 0;
+		margin: 45px -56px 0 48px;
+
+	}
+
+	.moore-carousel .slide-5 p {
+		padding: 0;
+		margin: 23px -135px 0 49px;
 	}
 
 	#slide-6 {
-		height: 253px;
-    	margin-top: 229px;
-		margin-left: -447px;
+    	margin-top: 340px;
+		margin-left: -455px;
+	}
+
+	.moore-carousel .slide-6 h3 {
+		padding: 0;
+		margin: 27px 0px 0px 27px;
+
+	}
+
+	.moore-carousel .slide-6 p {
+		padding: 0;
+		margin: 19px -24px 0 29px;
+	}
+
+	#slide-7 {
+    	margin-left: 0px;
+    	margin-top: -51px;
+	}
+
+	.moore-carousel .slide-7 h3 {
+		padding: 0;
+		margin: 30px 0px 0 49px;
+
+	}
+
+	.moore-carousel .slide-7 p {
+		padding: 0;
+		margin: 22px -15px 0 57px;
+	}
+
+	#slide-8 {
+    	margin-left: 213px;
+		margin-top: 5px;
+	}
+
+	.moore-carousel .slide-8 h3 {
+		padding: 0;
+		margin: 40px 0px 20px 29px;
+
+	}
+
+	.moore-carousel .slide-8 p {
+		padding: 0;
+		margin: 0 0px 0 31px;
+	}
+
+	#slide-9 {
+    	margin-top: 226px;
+		margin-left: -655px;
+	}
+
+	.moore-carousel .slide-9 h3 {
+		padding: 0;
+		margin: 30px 0px 0 47px;
+
+	}
+
+	.moore-carousel .slide-9 p {
+		padding: 0;
+		margin: 18px -67px 0 43px;
 	}
 
 	/* Quotes */
@@ -227,11 +309,27 @@ ABOUT YOU
 		min-height: 470px;
 	}
 
-	.jumbo-tron h1 {
-		padding: 35px;
+	.jumbo-tron {
+		margin-bottom: 0;
 	}
 
+	.jumbo-tron h1 {
+		padding-top: 77px;
+		letter-spacing: 5px;
+	}
+
+	.image-share-text h3 {
+		margin: 0px 14px 6px 29px;
+		font-size: 13px;
+		color: #fff;
+		padding-bottom: 10px;
+
+	}
+
+	.jumpstart-text h6 {
+	   	margin: 0px 51px -74px 80px;
+	    padding-top: 40px;
+	    line-height: 1;
+	    text-align: left;
+
 }
-
-
-
