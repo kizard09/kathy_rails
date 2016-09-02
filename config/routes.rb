@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   
+  resources :speaking_users
   resources :categories
   # resources :tags
   resources :contact_users

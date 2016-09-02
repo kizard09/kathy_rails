@@ -1,0 +1,1 @@
+json.array! @speaking_users, partial: 'speaking_users/speaking_user', as: :speaking_user

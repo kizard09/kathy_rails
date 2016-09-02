@@ -1,0 +1,1 @@
+json.partial! "speaking_users/speaking_user", speaking_user: @speaking_user

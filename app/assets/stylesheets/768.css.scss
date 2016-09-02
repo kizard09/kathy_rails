@@ -5,6 +5,13 @@
 	.tablet {
 		display: block;
 	}
+	.big-wrap {
+		margin-top: 0px;
+	    padding-top: 0px;
+	}
+	.container.mug {
+		background-position: bottom right;
+	}
 	.nav {
 		padding-top: 0;
 		position: static;
@@ -168,6 +175,9 @@
 	#testimonials .item {
 		padding-top: 67px;
 	}
+	#testimonials p {
+		font: normal 21px 'futura-pt', arial, sans-serif;
+	}
 	.kathy .wrap {
 		height: 350px;
 	}
@@ -289,6 +299,21 @@
 	}
 	.blogs .col.col-2{
 		width: 210px;
+	}
+	/*Speaking*/
+	.speaking .hero .wrap {
+		height: 340px;
+	}
+	
+	.speaking form .cf .field{
+		width:49%;
+		float:left;
+	}
+	.speaking form .cf .field:first-of-type{
+		margin-right:2%;
+	}
+	.int:last-of-type {
+		width:680px;
 	}
 }
 @media (min-width: 820px){
