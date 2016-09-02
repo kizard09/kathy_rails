@@ -14,17 +14,17 @@
 	    height: 400px !important;
 	}
 	#hero .owl-item:not(.center) img {
-		height: 270px;
+		height: 250px;
 		width: auto;
 	}
 	#hero .owl-item.center img {
-		height: 400px;
+		height: 335px;
 		width: auto
 	}
 	#hero .owl-nav .owl-prev{
 		left: 187px;
 	}
-	#hero .owl-nav .owl-prev, #hero .owl-nav .owl-next{
+	#hero .owl-nav .owl-prev, #hero .owl-nav .owl-next {
 		bottom: -13px;
 	}
 	.num {
@@ -150,6 +150,13 @@
 	.hero .right {
 		width:40%;
 	}
+	.home-wrap {
+		background-size: 100% 450px;
+    	height: 450px;
+	}
+	#hero .owl-item.center img {
+	}
+	
 	.contact .col-1 {
 		width: 600px;
 	}

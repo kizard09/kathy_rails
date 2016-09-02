@@ -135,8 +135,15 @@
 		width: 400px;
 		
 	}
+	#hero  .owl-item.center {
+		z-index: 3;
+
+	}
+	#hero  .owl-item {
+		z-index: 2
+	}
 	#hero  .owl-item.center img {
-		width: 600px;
+		width: 570px;
 	}
 	#hero  .owl-nav .owl-prev, #hero .owl-nav .owl-next{
 	    bottom: -4px;
@@ -144,7 +151,7 @@
 	.num {
 		position: absolute;
 		left:150px;
-		bottom: 30px
+		bottom: 55px
 	}
 	#hero .owl-nav .owl-prev, #hero .owl-nav .owl-next{
 		bottom: 33px;
@@ -154,6 +161,10 @@
 	}
 	#hero .owl-nav .owl-next{
 		left: 253px;
+	}
+	.home-wrap {
+		background-size: 100% 425px;
+    	height: 425px;
 	}
 	.book .wrap-no {
 		display: table;
@@ -304,7 +315,7 @@
 	.speaking .hero .wrap {
 		height: 340px;
 	}
-	
+
 	.speaking form .cf .field{
 		width:49%;
 		float:left;

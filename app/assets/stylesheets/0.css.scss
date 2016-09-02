@@ -453,14 +453,40 @@ footer .primary a {
 	position: absolute;
 	top:50%;
 	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
 }
 .hero {
 	z-index: 1000;
 	margin-top: 0px;
 	overflow: hidden;
 }
-.hero .wrap{
+.home-wrap {
 	background-image: asset-data-url("header.png");
+	background-repeat: no-repeat;
+	background-size: 100% 250px;
+	height: 250px;
+	padding: 0px 15px;
+	position: relative;
+	max-width: 1000px;
+	margin: auto;
+}
+.home-wrap:after {
+	content: '';
+	display: block;
+	width: calc(100% - 29px);
+	width: -webkit-calc(100% - 29px);
+	width: -moz-calc(100% - 29px);
+	height: calc(100% - 29px);
+	height: -webkit-calc(100% - 29px);
+	height: -moz-calc(100% - 29px);
+	border:15px solid #fff;
+	opacity: 0.8;
+	position: absolute;
+    top: 0;
+    left: 0;}
+.hero .wrap{
+	
 	background-repeat: no-repeat;
 	background-size: 100% 250px;
 	height: 250px;
