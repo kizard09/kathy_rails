@@ -5,15 +5,15 @@
      	margin-top: 30px; 
 	}
 
-		.readersguide::before {
-		content: url(../img/bookicon.png);
+	.readersguide::before {
+		content: asset-data-url("bookicon.png");
 		position: absolute;
 		bottom: -3px;
 		left: -15px;
 	}
 
 	.readersguide::after {
-		content: url(../img/arrowright.png);
+		content: asset-data-url("arrowright.png");
 		position: absolute;
 		bottom: -5.9px;
 	}

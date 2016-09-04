@@ -56,13 +56,13 @@
 	}
 
 	.readersguide::before {
-		content: url(../img/bookicon.png);
+		content: asset-data-url("bookicon.png");
 		position: absolute;
 		bottom: 0;
 }
 
 	.readersguide::after {
-		content: url(../img/arrowright.png);
+		content: asset-data-url("arrowright.png");
 		position: absolute;
 		bottom: 0.1px;
 	
@@ -331,5 +331,6 @@ ABOUT YOU
 	    padding-top: 40px;
 	    line-height: 1;
 	    text-align: left;
+	}
 
 }

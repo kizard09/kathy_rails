@@ -150,15 +150,14 @@ blockquote:before {
 	height: 40px;
 }
 
-
 .readersguide::before {
-	content: url(../img/bookicon.png);
+	content: asset-data-url("bookicon.png");
 	position: absolute;
 	bottom: 0;
 }
 
 .readersguide::after {
-	content: url(../img/arrowright.png);
+	content: asset-data-url("arrowright.png");
 	position: absolute;
 	bottom: 0.1px;
 	right: 5px;
@@ -203,7 +202,7 @@ blockquote:before {
 }
 
 .moore-background {
-	background: url(../img/BKGND.png);
+	background-image: asset-data-url("BKGND.png");
 	
 }
 
@@ -334,14 +333,14 @@ blockquote:before {
 }
 
 .lgt-blue-box::before {
-	content: url(../img/jumpstart_logo.png);
+	content: asset-data-url("jumpstart_logo.png");
 	position: absolute;
 	bottom: 24px;
     left: 9px;
 }
 
 .lgt-blue-box::after {
-	content: url(../img/arrowright.png);
+	content: asset-data-url("arrowright.png");
 	position: absolute;
 	bottom: -1.9px;
     right: -11px;
@@ -352,7 +351,9 @@ blockquote:before {
 
 .jumbo-tron {
 	text-align: center;
-	background: url(../img/aboutYouHeader.png) no-repeat top center;
+	background-image: asset-data-url("aboutYouHeader.png");
+	background-repeat: no-repeat;
+	background-position: top center;
 	background-size: cover;
 	overflow: hidden;
 	padding-top: 60px;
@@ -360,7 +361,9 @@ blockquote:before {
 
 .about-you-portrait {
 	text-align: center;
-	background: url(../img/AboutYou-portrait.png) no-repeat top center;
+	background-image: asset-data-url("AboutYou-portrait.png");
+	background-repeat: no-repeat;
+	background-position: top center;
 	background-size: cover;
 	width: 360px;
     margin: auto;
