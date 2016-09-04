@@ -137,12 +137,7 @@ blockquote:before {
 	position: relative;
 	background-color: #BCD8D7;
 	height: 85px;
-} {
-	position: relative;
-	background-color: #BCD8D7;
-	height: 85px;
-}	
-
+}
 .readersguide h6 {
 	line-height: 80px;
 	text-align: center;
