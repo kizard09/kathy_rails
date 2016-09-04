@@ -529,14 +529,14 @@ footer .primary a {
 	font:bold 12px 'futura-pt', arial, sans-serif;
 	color: #fff;
 	margin-left: 78px;
-	margin-top: -28px;
+	margin-top: -44px;
 }
 #hero .owl-nav{
 	color: #fff;
 }
 #hero .owl-nav .owl-prev, #hero .owl-nav .owl-next{
     position: absolute;
-    bottom: 15px;
+    bottom: 30px;
     display: block;
     width: 10px;
     height:10px;
@@ -595,6 +595,9 @@ footer .primary a {
 	padding-top: 100px;
 	padding: 40px 0;
 }
+.container.no-marg {
+	margin-top: 0;
+}
 .container.mug {
 	background-image: asset-data-url('mug.png');
 	background-position: center;
@@ -618,6 +621,9 @@ footer .primary a {
 	text-align: left;
 	font-size: 24px !important;
 	font-weight: normal;
+}
+.thsh, .moore-background {
+	padding-top:40px;
 }
 .thsh .bluebox h3{
 	font-size: 18px
@@ -697,7 +703,7 @@ footer .primary a {
 
 }
 #testimonials p {
-	font: normal 18px 'futura-pt', arial, sans-serif;
+	font: normal 16px 'futura-pt', arial, sans-serif;
 	text-align: center;
 	margin:auto;
 	display: block;
