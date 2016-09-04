@@ -50,7 +50,6 @@
 
 }	
 	.readersguide h6 {
-		margin: 19px 23px -74px 55px;
 		line-height: 1;
 		font: 700 12px/82px 'futura-pt', verdana, sans-serif;
 	}
@@ -58,14 +57,15 @@
 	.readersguide::before {
 		content: asset-data-url("bookicon.png");
 		position: absolute;
-		bottom: 0;
+		bottom: -5px;
+    	left: 0px;
 }
 
 	.readersguide::after {
 		content: asset-data-url("arrowright.png");
 		position: absolute;
-		bottom: 0.1px;
-	
+		right: 2px;
+    	bottom: -2.9px;
 }
 
 /*************** 

@@ -20,7 +20,7 @@
 		height: auto;
 	}
 	.secondary {
-		height: 140px;
+		height: 154px;
 		position: static;
 	}
 	.secondary .left, .secondary .right {
@@ -44,7 +44,7 @@
 		display: block;
 	    margin-left: 10px;
 	    float: left;
-	    margin-top: 15px;
+	    margin-top: 11px;
 	}
 	
 	.secondary .right a{
@@ -67,7 +67,7 @@
 		margin-left: 25px;
 	}
 	.home.tablet img{
-		width: 215px;
+		width: 190px;
 		position: absolute;
 		left: 0;
 	    right: 0;
@@ -81,7 +81,7 @@
 		width:110px;
 	}
 	.primary {
-		height: 90px;
+		height: 76px;
 	}
 	.primary .wrap {
 		max-width: 800px;
@@ -95,7 +95,7 @@
 		text-align: center;
 		color: #487497;
 		width: 20%;
-		line-height:90px; 
+		line-height:76px; 
 	}
 	.primary a:hover {
 		color: #71b4d5;
@@ -114,10 +114,26 @@
 		height: 50px;
 	}
 	nav.scroll .secondary {
-		height: 80px;
+		height: 85px;
 	}
 	nav.scroll .secondary .wrap{
-		padding:20px 0;
+		padding:20px 10px;
+	}
+	.secondary .right a.button {
+		position:absolute;
+		top:15px;
+		right:10px;
+		border-color: #ccc;
+		width: 120px;
+		padding-left: 0;
+		text-align: center;
+	}
+	.scroll .secondary .left a.button {
+		top: 20px;
+    	right: 143px;
+	}
+	.secondary .right a.button:hover {
+		border-color: #71b4d5
 	}
 	/*.hero .right{
 		max-width: 290px;
@@ -268,6 +284,9 @@
 	}
 	/*BOOK
 	_________________________*/
+	.thsh{
+		padding-top: 0;
+	}
 	.thsh .hero .left {
 		float: left;
 		width: 60%;

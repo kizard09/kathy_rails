@@ -1,20 +1,25 @@
 <div class="container">
   <div class="wrap-no cf">
     <div class="blogs blogshow">
-      <h3><%= link_to 'Back to Blogs', blog_posts_path %></h3>
+     
       <div class="col col-1 cf">
           <div class="post">
             <h3><%= @blog_post.title %></h3>
-            <h4><%= @blog_post.created_at %></h4>
+            <h4><%= @blog_post.created_at.strftime("%B %d, %Y") %></h4>
             <%= image_tag @blog_post.image %>
             <p><%= @blog_post.blog_entry %></p>
-            <p>Tags: <em>Trust the Whisper, Books</em></p>
-          </div>
+<!--             <p>Tags: <em>Trust the Whisper, Books</em></p>
+ -->      </div>
+          <h6 style="padding-left: 10px;"><%= link_to 'Back to Blogs', blog_posts_path %></h6>
       </div>
+
       <div class="col col-2">
           <%= render 'partials/blogbar' %>
       </div>
-  </div>
-</div>
+    </div>
+
 <%= render 'partials/feeds' %>
 <%= render 'partials/newsletter' %>
+</div>
+  </div>
+
