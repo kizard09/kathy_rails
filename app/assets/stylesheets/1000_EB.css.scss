@@ -210,11 +210,12 @@ MOORE PLACE
 /*************** 
 ABOUT YOU 
 ****************/
-
-	.box-model .col1 {
-		padding-left: 142px;
+	.hide-ex{
+	    padding-bottom: 50px;
 	}
-
+	.hide-ex .jumbo-tron {
+		min-height: 450px;
+	}
 	.image-share-text h3 {
 		margin: -7px 63px 14px -72px;
 	    font-size: 18px;
@@ -253,14 +254,12 @@ ABOUT YOU
 	}
 
 	.about-you-boxes .lgt-blue-box h6 {
-	    margin: 0px 31px -74px 45px;
 	    padding-top: 29px;
 	    line-height: 1;
 	    text-align: left;
 	}
 
-	.about-you-boxes .bluebox{
-		margin-right: 300px;
-    	margin-left: 123px;
+	.about-you-boxes {
 	}
+
 }

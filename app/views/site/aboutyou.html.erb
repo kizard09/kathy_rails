@@ -1,77 +1,62 @@
-<div class="wrap">
-	<div class="jumbo-tron">
-		<h1>What's Your Whisper?</h1>
-		<a href="#" class="button dblue">tell your story</a>
-		
-	</div>
-	
-</div>
-
-	<div class="wrap-no">
+<div class='hide-ex'>
+		<div class="wrap-no">
+		<div class="jumbo-tron">
+			<h1>What's Your Whisper?</h1>
+			<a href="#" class="button dblue">tell your story</a>
+		</div>
 		<div class="box-model cf">
 			<div class="col1 col">
 				<div class="about-you">
-				<h3>About You</h3>
+					<h3>About You</h3>
 					<p>I wrote <i>The Hundred Story Home</i> not to convice you to solve homelessness in your community but to help you solve the homelessness in you. Do you know what I'm talking about? That feeling that what you are doing isn't what you are supposed to be doing? If you are looking for a purpose, whether it is as big as a building or as small as random acts of kindness, I am hoping my book inspired you to find that one thing that you were meant to do.</p>
 
 					<p>My hope is that reading <i>The Hundred Story Home</i> inspires you to begin asking yourself What's My Whisper? I would love to be helpful to you on that journey by creating a community of people looking for purpose, telling you about great resources, and offering some of my own. But really, that question of What's My Whisper can only be answered by you. I've developed some steps to help jumpstart your journey. Download them <a href="#" class="here-link">here</a></p>
-			</div>
-
-			<div class="resources">
-				<h3>Resources</h3>
+				</div>
+				<div class="resources about-you-background">
+					<h3>Resources</h3>
 					<div class="homelessness">
 						<h6>homlessness</h6>
-							<li class="resources-list">To learn more about homelessness, what causes it and how to help in your community visit The National Coalition for the Homeless website 
-								<a href="http://www.nationalhomeless.org" target="_blank">nationalhomelessness.org</a></li>
+						<li class="resources-list">To learn more about homelessness, what causes it and how to help in your community visit The National Coalition for the Homeless website 
+						<a href="http://www.nationalhomeless.org" target="_blank">nationalhomelessness.org</a></li>
 					</div>
-
-
 					<div class="mental-illness">
 						<h6>mental illness</h6>
-							<li class="resources-list">To learn more about mental illness visit The National Association of Mental Illness website
-								<a href="http://www.nami.org" target="_blank">www.nami.org</a></li>
-
-							<li class="resources-list">To help end the stigma of mental illness and learn more about it, visit Bring Change2Mind <a href="http://www.bringchange2mind.org"target="_blank">bringchange2mind.org</a></li>
+						<li class="resources-list">To learn more about mental illness visit The National Association of Mental Illness website
+						<a href="http://www.nami.org" target="_blank">www.nami.org</a></li>
+						<li class="resources-list">To help end the stigma of mental illness and learn more about it, visit Bring Change2Mind <a href="http://www.bringchange2mind.org"target="_blank">bringchange2mind.org</a></li>
 					</div>
-
 					<div class="volunteering">
 						<h6>volunteering</h6>
-						<li class="resources-list">Every community has great nonprofits working on issues including education, health, human services, arts, animals and enviroment. Talk to your friends about organizations doing good work or visit the Volunteer Match website for opportunities.
-								<a href="http://www.volunteermatch.org" target="_blank">www.volunteermatch.org</a></li>
-
+						<li class="resources-list">Every community has great nonprofits working on issues including education, health, human services, arts, animals and enviroment. Talk to your friends in your community about who is doing good work or visit the Volunteer Match website for opportunities 
+						<a href="http://www.volunteermatch.org" target="_blank">www.volunteermatch.org</a></li>
 					</div>
-			</div>
-		</div>
-
-				<div class="col2 col"> 
-
-						<div class="about-you-portrait">
-								<img src="assets/img/AboutYou-portrait.png" class="desktop">
-									<div class="image-content">
-										<div class="image-share-text">
-											<h3>Share what's been whispering to you</h3>
-												<a href="#" class="button sm-button">share</a>
-										</div>
-									</div>
-						</div>
-						<div class="about-you-boxes">
-								<div class=" jumpstart-text lgt-blue-box">
-								<h6>jumpstart your journey</h6>
-								<small style="color:#666">coming soon</small>
-						</div>
-
-						<div class="bluebox">
-							<h3>Be the first to receive a copy of The Hundred Story Home.</h3>
-							<p>My book will be available this fall in select bookstores and through Amazon (Paperback and ebook). Sign up here to receive a special offer when it becomes available.</p>
-							<a href="#newsletter" class="lblue button">pre-order</a>
-						</div>
-					</div>	
 				</div>
 			</div>
+			<div class="col2 col"> 
+				<div class="about-you-portrait">
+					<%= image_tag 'AboutYou-Portrait.png', class: 'desktop' %>
+					<div class="image-content">
+						<div class="image-share-text">
+							<h3>Share what's been whispering to you</h3>
+								<a href="#" class="button sm-button">share</a>
+						</div>
+					</div>
+				</div>
+				<div class="about-you-boxes">
+					<div class=" jumpstart-text lgt-blue-box">
+						<h6>jumpstart your journey</h6>
+					</div>
+					<div class="bluebox">
+						<h3>Be the first to receive a copy of The Hundred Story Home.</h3>
+						<p>My book will be available this fall in select bookstores and through Amazon (Paperback and ebook). Sign up here to receive a special offer when it becomes available.</p>
+						<a href="#newsletter" class="lblue button">pre-order</a>
+					</div>
+				</div>	
+			</div>
+		</div>
+		<%= render 'partials/newsletter' %>
 	</div>
-	<% render 'partials/newsletter' %>
-
-
+</div>
 
 
 

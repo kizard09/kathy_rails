@@ -294,6 +294,10 @@ blockquote:before {
 	ABOUT YOU
 ********************/
 
+.about-you-background {
+	background: url(../img/Kathy_AboutYou_bkgnd.jpg);
+}
+
 .resources li,
 .about-moore li {
 	font:18px/24px 'adobe-caslon-pro', serif;
@@ -321,10 +325,6 @@ blockquote:before {
     border: 1px solid #487497;
 }
 
-.jumpstart-text {
-    margin-right: 297px;
-    margin-left: 122px;
-}
 
 .jumpstart-text h6 {
 	line-height: 80px;
@@ -333,14 +333,14 @@ blockquote:before {
 }
 
 .lgt-blue-box::before {
-	content: asset-data-url("jumpstart_logo.png");
+	content: url(../img/jumpstart_logo.png);
 	position: absolute;
 	bottom: 24px;
     left: 9px;
 }
 
 .lgt-blue-box::after {
-	content: asset-data-url("arrowright.png");
+	content: url(../img/arrowright.png);
 	position: absolute;
 	bottom: -1.9px;
     right: -11px;
@@ -351,7 +351,7 @@ blockquote:before {
 
 .jumbo-tron {
 	text-align: center;
-	background-image: asset-data-url("aboutYouHeader.png");
+	background-image: asset-data-url('aboutYouHeader.png');
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
@@ -361,7 +361,7 @@ blockquote:before {
 
 .about-you-portrait {
 	text-align: center;
-	background-image: asset-data-url("AboutYou-Portrait.png");
+	background-image: asset-data-url('AboutYou-Portrait.png');
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
@@ -408,4 +408,18 @@ blockquote:before {
 	text-decoration: none;
 	text-align: center;
 	text-transform: uppercase;
+}
+
+.about-you-boxes {
+	width: 100%;
+}
+
+.about-you-boxes .bluebox h3 {
+	color: #bbd6d9;
+    text-align: left;
+    font-size: 18px;
+    font-weight: normal;
+}
+.hide-ex {
+	overflow:hidden;
 }
