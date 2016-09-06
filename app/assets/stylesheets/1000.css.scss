@@ -5,14 +5,12 @@
 	.secondary .right {
 		margin-top: 10px;
 	}
-	
-	.hero .wrap {
+
+	.hero .wrap-no {
 		height: 450px;
 		background-size: cover;
 	}
 	#hero , #hero  .owl-stage-outer{
-	    width: 970px !important;
-	    height: 400px !important;
 	}
 	#hero .owl-item:not(.center) img {
 		height: 250px;
@@ -23,13 +21,17 @@
 		width: auto
 	}
 	#hero .owl-nav .owl-prev{
-		left: 187px;
+		left: 212px;
+	}
+	#hero .owl-nav .owl-next{
+		left:278px;
 	}
 	#hero .owl-nav .owl-prev, #hero .owl-nav .owl-next {
-		bottom: -13px;
+		bottom: 25px;
 	}
 	.num {
-		bottom: 35px;
+		bottom: 47px;
+		left:161px;
 	}
 	.review .wrap {
 		height: 270px;
@@ -116,6 +118,8 @@
 	}
 	.contact .hero .wrap {
 		height: 340px;
+		background-position: initial;
+		background-size: cover;
 	}
 	.feeds .wrap, .t-timeline, .i-timeline {
 		height: 450px;

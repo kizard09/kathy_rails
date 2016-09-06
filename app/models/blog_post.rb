@@ -10,7 +10,7 @@ class BlogPost < ActiveRecord::Base
 	has_many :tags, through: :taggings
 	belongs_to :category
 
-	paginates_per 3
+	paginates_per 10
 
 	scope :tag, -> (tag) { where tag: tag}
 	scope :category, -> (category) { where category: category }
