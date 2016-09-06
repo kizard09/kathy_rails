@@ -979,7 +979,7 @@ _________________________*/
 	font-size: 14px;
 	padding: 15px 0 0;
 }
-.about .hero .wrap{
+.about .hero .wrap-no{
 	background-image: asset-data-url('mom_dad.png');
 	background-repeat: no-repeat;
     background-position: center;
@@ -1073,7 +1073,7 @@ _______________*/
 .thsh > .wrap {
 	padding:0;
 }
-.thsh .hero:after {
+.thsh .hero:after, .about .hero .wrap-no:after {
 	content: '';
 	display: block;
 	width: calc(100% - 30px);
@@ -1087,6 +1087,9 @@ _______________*/
 	position: absolute;
     top: 0;
     left: 0;
+}
+.about .hero .wrap-no:after {
+	opacity: 0.8;
 }
 .thsh .hero .left, .thsh .hero .right {
 	float: none;
@@ -1208,6 +1211,7 @@ _____________*/
 .speaking .bluebox p {
 	font-size: 16px !important
 }
+
 .int {
 	margin:40px 0;
 }
