@@ -1,5 +1,7 @@
 $(function(){
 
+// Owl Carousel Moore-Place 
+
 	if($(window).width() < 768){
 		$(".moore-carousel").owlCarousel({
  
@@ -16,5 +18,10 @@ $(function(){
 	} else {
 		$(".moore-carousel").removeClass('owl-carousel')
 	}
+
+// FancyBox iFrame
+
+	$(".fancybox").fancybox();
+
 	
 });
