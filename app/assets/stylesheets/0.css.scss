@@ -772,7 +772,7 @@ footer .primary a {
 	background-image: asset-data-url('kathy-back.jpg');
 	background-repeat: no-repeat;
 	position: relative;
-	padding:30px 10px 70px;
+	padding:30px 10px;
 	margin-bottom: 40px;
 	background-size: cover;
 }
@@ -804,6 +804,11 @@ footer .primary a {
     margin: 0;
     position: absolute;
     top: auto;
+}
+.kathy .quote h6 {
+	color: #424e74;
+	text-align: center;
+	font-size: 20px;
 }
 .news .wrap {
     padding: 20px;

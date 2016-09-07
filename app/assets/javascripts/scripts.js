@@ -36,6 +36,7 @@ $(function(){
 	    center: true,
 	    items:1,
 	    nav:true,
+	    autoplay:true,
 	    navText:['',''],
 	    loop:true,
 	    responsive:{
