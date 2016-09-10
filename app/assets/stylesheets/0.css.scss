@@ -634,8 +634,8 @@ footer .primary a {
 	font-weight: normal;
 }
 .thsh .container {
-	padding-top:100px;
-}
+/*	padding-top:100px;
+*/}
 .thsh {
 	padding-top:40px;
 }
@@ -1084,12 +1084,24 @@ _________________________*/
 }
 /* BOOK
 _______________*/
+.thsh .intro {
+	margin-bottom: 40px;
+}
 .thsh .hero{
 	background-image: asset-data-url('header-book.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding:0;
 	position: relative;
+	padding: 40px;
+}
+.thsh .hero h2{
+	font: normal 50px 'futura-pt', arial;
+	padding: 20px 0 20px;
+}
+.thsh .hero p{
+	font-size: 21px;
+	padding: 20px 0 30px;
 }
 .thsh .button {
 	position: relative;
@@ -1119,11 +1131,10 @@ _______________*/
 .thsh .hero .left, .thsh .hero .right {
 	float: none;
 }
-.thsh .hero .left {
-	padding:20px 30px;
-}
+
 .thsh .hero .right {
 	margin: auto;
+	padding: 0;
 }
 /* Contact */
 .contact .hero .wrap{

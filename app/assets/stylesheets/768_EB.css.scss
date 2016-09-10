@@ -25,9 +25,13 @@
 	.thsh .hero .right {
     	max-width: none;
     	width: calc(40% - 20px);
+    	width: -webkit-calc(40% - 20px);
+    	width: -moz-calc(40% - 20px);
     	margin-top: 30px;
-}
-
+	}
+	.thsh .hero .left {
+		padding:50px 0px 20px 30px;
+	}
 	/* PRE-ORDER BOX */
 
 	.pre-order {
