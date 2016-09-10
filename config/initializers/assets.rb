@@ -3,8 +3,8 @@
 # Version of your assets, change this if you want to expire all your assets.
 Rails.application.config.assets.version = '1.0'
 
-Rails.application.config.assets.precompile += %w( 0.css )
 Rails.application.config.assets.precompile += %w( 0_EB.css )
+Rails.application.config.assets.precompile += %w( 0.css )
 Rails.application.config.assets.precompile += %w( 768.css )
 Rails.application.config.assets.precompile += %w( 768_EB.css )
 Rails.application.config.assets.precompile += %w( 1000.css )
