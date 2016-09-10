@@ -43,14 +43,21 @@ MOORE PLACE
 		float: left;
 		width: 50%;
 	}
+	.header-moore .bluebox, .solomon-video {
 
-	.header-moore .bluebox {
-		float: right;
-		height:326px;
-		width: 50%;
-		padding: 33px;
 	}
-
+	.header-moore .bluebox {
+/*		float: right;
+		height:326px;
+		width: 50%;*/
+		padding: 33px;
+		vertical-align: top;
+		padding-top: 30px
+	}
+	.header-moore .bluebox p{
+		font-size: 18px;
+		line-height: 24px;
+	}
 	.quote-block h3 {
 		margin: 14px 35px;
 	}

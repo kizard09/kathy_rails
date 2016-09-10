@@ -79,12 +79,26 @@ MOORE PLACE
 		float: left;
 		width: 50%;
 	}
-
-	.header-moore .bluebox {
-		float: right;
-		height: 310px;
+	.header-more {
+		display: table;
+	}
+	.header-moore .bluebox, .solomon-video {
+		display: table-cell;
 		width: 50%;
-		padding: 33px;
+		vertical-align: middle;
+	}
+	.solomon-video .fancybox, .solomon-video img {
+		width: 100%;
+		float: none;
+	}
+	.header-moore .bluebox p{
+		font-size: 16px;
+	}
+	.header-moore .bluebox {
+/*		float: right;
+		height: 310px;
+		width: 50%;*/
+		padding: 0px 33px;
 		line-height: 5;
 		font: 15px/21px 'adobe-caslon-pro', serif;
 	}
