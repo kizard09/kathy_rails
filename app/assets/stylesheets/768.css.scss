@@ -218,6 +218,18 @@
 		-webkit-transform: translateY(-50%);
 		-moz-transform: translateY(-50%);
 	}
+	.kathy h5 {
+		font-size:18px;
+		text-align: right;
+		position:relative;
+		z-index:2;
+		padding-right:15px;
+		padding-top:10px;
+	}
+	.kathy h5 a:hover {
+		text-decoration:underline
+	}
+	
 	.kathy img {
 		width: auto;
 		height:100%;

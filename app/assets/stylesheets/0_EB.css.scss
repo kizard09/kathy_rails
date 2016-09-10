@@ -153,13 +153,13 @@ blockquote:before {
 	height: 40px;
 }
 
-.readersguide::before {
+.readersguide:before {
 	content: asset-data-url("bookicon.png");
 	position: absolute;
 	bottom: 0;
 }
 
-.readersguide::after {
+.readersguide:after {
 	content: asset-data-url("arrowright.png");
 	position: absolute;
 	bottom: 0.1px;
@@ -206,7 +206,10 @@ blockquote:before {
 
 .moore-background {
 	background-image: asset-data-url("BKGND.png");
-	
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+
 }
 
 .about-moore {
@@ -231,7 +234,9 @@ blockquote:before {
 .quote-block h6 {
 	margin-top: 15px;
 }
-
+.moore-carousel {
+	margin:auto;
+}
 .moore-quotes .quote-block {
 	text-align: center;
 	margin: 52px 25px;
@@ -334,25 +339,27 @@ blockquote:before {
     border: 1px solid #487497;
 }
 
-
+.jumpstart-text {
+	margin-top:20px;
+}
 .jumpstart-text h6 {
 	line-height: 80px;
 	text-align: center;
 	color: #3F7398;
 }
 
-.lgt-blue-box::before {
-	content: url(../img/jumpstart_logo.png);
+.jumpstart-text.lgt-blue-box::before {
+	content: asset-data-url('jumpstart_logo.png');
 	position: absolute;
 	bottom: 24px;
-    left: 9px;
+    left: 25px;
 }
 
-.lgt-blue-box::after {
-	content: url(../img/arrowright.png);
+.jumpstart-text.lgt-blue-box::after {
+	content: asset-data-url('arrowright.png');
 	position: absolute;
-	bottom: -1.9px;
-    right: -11px;
+	bottom: 0.1px;
+    right: 5px;
 }
 .col2 .bluebox {
 	margin-top: 25px;
