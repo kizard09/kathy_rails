@@ -687,10 +687,9 @@ footer .primary a {
 .review .wrap-no {
 	background-image: asset-data-url('Reviews.png');
 	background-repeat: no-repeat;
-	height: 520px;
 	background-size: cover;
-	margin:40px auto;
-	padding: 35px;
+    margin: 40px auto;
+    padding: 35px 35px 70px;
 }
 .review .wrap-no:after {
 	content: '';
@@ -718,7 +717,7 @@ footer .primary a {
 }
 #testimonials p {
 	font-size: 16px !important;
-	font: normal 16px 'futura-pt', arial, sans-serif;
+	font: normal 18px 'futura-pt', arial, sans-serif;
 	text-align: center;
 	margin:auto;
 	display: block;
@@ -757,7 +756,7 @@ footer .primary a {
 	position: absolute;
 	width: 60px;
 	left:0;
-	bottom: 0;
+	bottom: -36px;
 	right:0;
 	margin:auto;
 }
