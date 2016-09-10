@@ -16,7 +16,7 @@ Rails.application.routes.draw do
 
   get 'site/aboutyou'
 
-  get 'site/speaking'
+  get 'site#speaking'
 
   get 'site/media'
 
