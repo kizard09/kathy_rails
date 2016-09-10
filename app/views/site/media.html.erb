@@ -1,2 +1,46 @@
-<h1>Site#media</h1>
-<p>Find me in app/views/site/media.html.erb</p>
+
+
+<div class="moore-background">
+	<div class="wrap-no cf">
+		<div class="header-moore cf">
+			<div class="solomon-video">
+			<a class="fancybox various fancybox.iframe" href="https://player.vimeo.com/video/180655215">
+				<%= image_tag 'Kathy_AuthorVideo.png', class:'videoimage', class: "videoSol" %></a>
+					
+				</div>
+	
+
+			<div class="bluebox">
+				<h3>About the Author</h3>
+				<h6>July 6, 2016</h6>
+
+				<p>Kathy Izard was an award-winning designer before leading the development of Moore Place, which houses over one hundred chronically homeless men and women. She lives in Charlotte with her husband and four daughters who patiently listen to all her crazy ideas.</p>
+
+			</div>
+		</div>
+
+		<div class="content cf wrap-no">
+			<div class="cf media-vids">
+				<h3>Videos</h3>
+				
+			   <div class="item">
+				   <a class="fancybox various fancybox.iframe" href="http://cltblog.com/33676">
+				    	<%= image_tag 'moorevideo.png', alt: "Moore Place Video", class: "videoSol" %></a>
+				    <p>A walkthrough of Moore Place, Charlotte's first real solution to homelessness.</p>
+				</div>
+			    <div class="item">
+			    	<a class="fancybox various fancybox.iframe" href="https://player.vimeo.com/video/102030931?title=0&byline=0&portrait=0"><%= image_tag 'VideoSolomon.png', alt: "Photo of Solomon", class: "videoSol" %></a>
+			    	<p>Solomon Agunbiade, a resident of Moore Place in Charlotte, NC, shares how the counseling and housing he received through Urban Ministry Center has changed his life and his dreams for the future.</p>
+			    </div>
+			</div>
+<!-- 			<div class="wrap downloads">
+				<%= link_to 'Bio', 'Bio.pdf', action: :download %>
+				<%= link_to 'Book Cover', 'BookCover_MED.jpeg', download: true %>
+			</div> -->
+		</div>
+		<%= render 'partials/newsletter' %>
+	</div>
+
+</div>
+
+

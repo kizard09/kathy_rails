@@ -358,7 +358,16 @@
 	.int:last-of-type {
 		width:680px;
 	}
+	.media-vids .item {
+		width:50%;
+		padding:10px;
+		float:left;
+	}
+	.media-vids .item img {
+		width:100%;
+	}
 }
+
 @media (min-width: 820px){
 	.popup{
 		margin: 10px auto;
@@ -368,6 +377,10 @@
 	.contact .col-1, .contact .col-2 {
 		width: 50%;
 		float: left
+	}
+	.media-vids .item {
+		width:33%;
+		float:left;
 	}
 	.contact .col-2 {
 		padding-left: 20px;
