@@ -1,0 +1,395 @@
+@media screen and (min-width: 768px) {
+  /* line 3, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .col1 {
+    float: left;
+    width: 55%;
+    padding-right: 40px;
+  }
+
+  /* line 9, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .col2 {
+    float: right;
+    width: 45%;
+  }
+
+  /* line 13, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .speaking .col {
+    margin-top: 20px;
+  }
+
+  /* line 16, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .col1,
+  .col2 {
+    margin-top: 40px;
+  }
+
+  /* line 21, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .quote-block h6 {
+    padding-bottom: 10px;
+  }
+
+  /* line 25, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .thsh .hero .right {
+    max-width: none;
+    width: calc(40% - 20px);
+    width: -webkit-calc(40% - 20px);
+    width: -moz-calc(40% - 20px);
+    margin-top: 30px;
+  }
+
+  /* line 32, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .thsh .hero .left {
+    padding: 50px 0px 20px 30px;
+  }
+
+  /* PRE-ORDER BOX */
+  /* line 37, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .pre-order {
+    background-color: #3F7398;
+  }
+
+  /* line 43, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .container-box {
+    text-align: left;
+  }
+
+  /* AUTHOR VIDEO BOX */
+  /* READERS GUIDE */
+  /* line 53, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .readersguide {
+    background-color: #BCD8D7;
+    height: 83px;
+  }
+
+  /* line 58, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .readersguide h6 {
+    line-height: 1;
+    font: 700 12px/82px 'futura-pt', verdana, sans-serif;
+  }
+
+  /* line 63, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .readersguide::before {
+    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAABVCAYAAABgpvkGAAAGhUlEQVR4nO3cT2wUZRjH8eeZnaVsW%2FAPqTTghYrYCyEhpBGRIJFgQoIxIZGLBGlKMEbiyXrUcNCT8aAeIEXUE5hoPDURY5BEidlECcHDilBjolApGCVbWtqdfT3YqbMvM7Oz3VnQne8n2ezOzDvvO5ffvDPzvjsiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIDW0YXuePjw4Va0Ye5gXSIicuDAgQaqBP6f3BbVu9ATyIJPPHXqShR6oF2lHXQ7qM0E1w9nmnUQeGRSmkHXBL%2Fj2CGM2q%2BR%2BuyAa0g7QNtLK%2Bhhwba%2F4wRD2Wh7Sesm7MisNIIeFfJGgt5Mm0kQdmRa2pfudtDDwm4HrNHePNhe1LIdbLs9IFOaDXpYkDXkE7ZPM71rvWcAYXXa7dGrIzNa0aMHP46IyNDQ0AeO4zwrIn%2FOlZ0wxlw1xvxmjPnJ87zvL1%2B%2B%2FPXJkyf%2Fimtg%2B%2Fbt96xYseLxXC63XlUfVtWVqvqAiPTMFbm3Wq1%2BPDIy8vxc%2B9WQagg3MqfZCTNh4Z4P%2BdDQ0LsiIqr6hDHmTLlcHnFdt9txnCWu6y5X1VWO4%2FSp6oCILDPGfFOpVI6dPn36k7GxsYqISF9fn7tly5ZdruvuU9VNInLdGFOsVqtjxphfKpXKeLVavVGpVMrd3d1DqvqYMeYrEZGRkZGX5J%2Bwm6gPE2aQBa0YR5%2F%2FOI4z6G%2FwPO%2Bz48ePfyf%2FhkyC37t3736ku7t7Vz6ff3Pbtm3Dk5OT%2B0REurq6jonIfZ7nHS2Xyy%2BfOHHiRwl%2Fsq%2BDg4NPu67bp6p9c%2BsPSu3JjN4cmdSKcfSoe3O7bE3o5gL8xsDAwNtr16491NXV9YWIiOd5H54%2Ff%2F61YrE4VafdqG3BZwLclyOT0h5HDxteExERY4wdujCmWCxOFYvFV%2Fbv379eRCpHjx4dDuwTN4lG59q4bb3UhpywI3PSHEePDHlCNeEzxtyIKNNo3YQdmeekXF8aU1%2BTjH0nDelCjgdoO2kFPWwcvV65oNuCq6pGVRuZ8BJ7WZ%2BgHNC20u7RgxYyTTWup663PY1jANpSM0FvVU9pB3ohAY%2BS9MoDaCut7NEb0UiQeYgGNKiVD%2BNqBIa%2Bouamx9WRaHvI8FqiYwPaXSteJRU3YSbpX1fVOjEEh9Xipt3GHQtXAsisVr0zLoofRkdq55xXJTr8YSF2JFnQAUhzQV%2FIO92iyvrBD5azTwr2tmaDnuZDPuA%2FLc0ePdhDhwkLo39Jbe8XLBcXdHs5bpyeYCOz0gq6PTW1XuD976hw2%2BWj5rDXu%2BcPOw7Cjsy5G%2Ffo9kkh2Kv7y8En6P7IQHB7WMC5RwcipBF0%2B7XKob2567qb9u7dO2yMmZ57UcTvN2%2Fe%2FPXChQsXS6XSpEQH1b90n9%2Fe39%2FftWbNmtWdnZ0Puq673HGcpaq62HXdTRHHFzYJB8iMtO%2FR7cv3eY7jbOjo6NgQXLd06VLp7e01mzdvvuR53rdTU1Ofnzp16svx8fGZQF3a29vbsXXr1icLhcJTuVzuUVV9SJL14Fy2A5L%2BPbr9qqYkVFVXu667esmSJc%2Ft3LlzYnp6%2Bh3%2F2Pbs2fPi4sWLD6pqT516oo7LPh7CjsxJu0f3v%2F2x8Yapak%2BhUDjkLxcKha1NHtNCTj5AW0nrHt1eroqIc%2BTIkW6Ze3i2bt26rkKh0LFs2bL7Ozs7l%2Bfz%2Bd58Pt%2BXy%2BXW5nK5daq6KlFjxvzsed45z%2FN%2BmJ2dHZudnb0yNTV19dq1a9dv3bo1c%2Fbs2bLUnmyiXg4JZEYrnrr7IfJ7dBURPXfuXFlEJkXkDxG5FNwmIrJjx46%2Bnp6eZxYtWjSoqitrKjTmyszMzPsTExOfjo6Ojlnt2Jfl9ow7go3Mazbo9V7L5E9tDZvgIsHv0dHRiyLyVn9%2F%2F3sbN258PZ%2FPvyAiUqlUPjpz5sxwqVSaFrntPjtJ2KN6c8KPzEi7Rw%2B7jE8UdP%2B7VCrdLJVKwyLyakidjQY9bBnInDTH0e3e3R5fTxJ0%2B7fdjv07Kuhx6%2By6gLbX6h7dX2efCOICXi%2FoSXv4qH2AzElzHF2ktge3t2tIuaie3A571Ky2uPBHHQeQOa3q0cMCH3YpHywfLBsX9LB6o8rVWw9kQqv%2B1BIWLDvMcSGPugWo10bceiCz7uS%2F15KEP6pcI3UCsNzpv6naosKftCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMBd9jc36DpOOD%2FrOQAAAABJRU5ErkJggg%3D%3D);
+    position: absolute;
+    bottom: -5px;
+    left: 0px;
+  }
+
+  /* line 70, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .readersguide::after {
+    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAABVCAYAAABgpvkGAAACrklEQVR4nO3cv4scZRgH8OdZD4TkMHeQxBhRjhA7c5FAQIQQsEidBIKCNpriUuS%2FsfGEJEUaq%2FywFFKIIGgISjrRQgnxNI2eXOIPyL6pLs7N7Szn7bwbop8PLDM787wz23z3fXZ2diMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKYhn%2FQLgP%2BS5eXlcbubeStbPebS0tK2X8%2B6mYmPAIzTNZm2t285%2BNsh6FDHv%2B2W1%2BurBF7QYTrGBb8Z7owKYR%2F0fUBgU6iztZ4d27rGT0zQoa5sLEe9AWSrpj2uF1p3qKcd4K7wlvinZW%2B27r218YIO%2Fepq2%2FPqd8PbGfHtwfl899Xd%2BXfH%2BHbYe6F1hzo2fQbPiNsl4uT3v5YrX98rO2J0617l3hZBh3o2hPboC%2FleRnxcIk78uFqufHOv7IzRF%2BeaY3sJvqBDXY%2BD%2FOJsPnx9f54dZFwuEW%2F%2BsFqu3%2FqlzLbrwlV3eKrlvp05PP7S4Nwg42KJOHbn9%2FLJVytlV%2B0TCzpM2dyzMTyxMDg%2FyPiwRLzx01q5Wvucgg5PztTy5%2Bs1mLLf%2ForBZ3eGHwxLvJ8RX%2ByfzVO1zynoMD3l5%2FvlmS9XykfDEu9kxOcvP5cnjzyfa7VPLOhQ1%2BMbX%2B6ulZmbK%2BVCiXg7I24s7Mozr%2B3NB4265qNXgg71rN%2FlFhERN1fKpRLxVkZ8emAuzyzuyT8bde1wl9ZyIi7GQR2ltV5KxKGMuHZwPk8v7sk%2FYvMMXmU2jzCjQ982zOKN5%2BXUK4PDY8aMWvZG0KGerl%2BlddVGbO4EeiHoUNeon54297Vru%2FZNRNChf13t%2B%2Fr6qPpxzycm6DAdWw2vi3HwFBnVqm%2BlvgpBh7ra%2F%2FA6ajsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADA%2F8Mjxj6ZGSjNdBEAAAAASUVORK5CYII%3D);
+    position: absolute;
+    right: 2px;
+    bottom: -2.9px;
+  }
+
+  /*************** 
+  MOORE PLACE 
+  ****************/
+  /* line 82, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .videoSol {
+    float: left;
+    width: 50%;
+  }
+
+  /* line 86, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .header-more {
+    display: table;
+  }
+
+  /* line 89, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .header-moore .bluebox, .solomon-video {
+    display: table-cell;
+    width: 50%;
+    vertical-align: middle;
+  }
+
+  /* line 94, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .solomon-video .fancybox, .solomon-video img {
+    width: 100%;
+    float: none;
+  }
+
+  /* line 98, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .header-moore .bluebox p {
+    font-size: 16px;
+  }
+
+  /* line 101, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .header-moore .bluebox {
+    /*		float: right;
+    		height: 310px;
+    		width: 50%;*/
+    padding: 0px 33px;
+    line-height: 5;
+    font: 15px/21px 'adobe-caslon-pro', serif;
+  }
+
+  /* line 110, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .main-content {
+    float: left;
+    width: 65%;
+  }
+
+  /* line 115, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .img-with-text {
+    float: right;
+    width: 35%;
+    padding-top: 30px;
+  }
+
+  /* line 121, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .about-moore {
+    padding-bottom: 70px;
+  }
+
+  /* line 125, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .about-moore p {
+    text-align: left;
+    margin-right: 359px;
+  }
+
+  /* line 130, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .hide-ex .cf {
+    display: table;
+  }
+
+  /* line 137, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  #slide-1
+  #slide-2
+  #slide-3
+  #slide-4
+  #slide-5
+  #slide-6
+  #slide-7
+  #slide-8
+  #slide-9 {
+    width: 100%;
+  }
+
+  /* line 149, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  #slide-1 {
+    margin-left: -14px;
+    margin-top: -94px;
+    padding-top: 40px;
+  }
+
+  /* line 155, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .moore-carousel .slide-1 h3 {
+    padding: 0px;
+    margin: 90px -42px 17px 30px;
+  }
+
+  /* line 160, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .moore-carousel .slide-1 p {
+    margin-left: 30px;
+    margin-right: -71px;
+    padding: 0;
+  }
+
+  /* line 166, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  #slide-2 {
+    margin-left: 201px;
+    margin-top: 23px;
+  }
+
+  /* line 171, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .moore-carousel .slide-2 h3 {
+    margin: 35px -25px 0 27px;
+    padding: 0;
+  }
+
+  /* line 177, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .moore-carousel .slide-2 p {
+    padding: 0;
+    margin: 7px 6px 0 54px;
+  }
+
+  /* line 182, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  #slide-3 {
+    margin-top: 213px;
+    margin-left: -584px;
+    padding-top: 32px;
+  }
+
+  /* line 189, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .moore-carousel .slide-3 h3 {
+    padding: 0;
+    margin: 60px 0 0 32px;
+  }
+
+  /* line 195, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .moore-carousel .slide-3 p {
+    padding: 0;
+    margin: 20px -25px 0 34px;
+  }
+
+  /* line 200, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  #slide-4 {
+    margin-left: 16px;
+    margin-top: -51px;
+  }
+
+  /* line 205, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .moore-carousel .slide-4 h3 {
+    padding-top: 0;
+    margin: 40px -100px 0 24px;
+  }
+
+  /* line 211, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .moore-carousel .slide-4 p {
+    padding: 0;
+    margin: 21px -28px 0 37px;
+  }
+
+  /* line 216, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  #slide-5 {
+    margin-left: 69px;
+    margin-top: 52px;
+  }
+
+  /* line 221, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .moore-carousel .slide-5 h3 {
+    padding: 0;
+    margin: 45px -56px 0 48px;
+  }
+
+  /* line 227, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .moore-carousel .slide-5 p {
+    padding: 0;
+    margin: 23px -135px 0 49px;
+  }
+
+  /* line 232, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  #slide-6 {
+    margin-top: 340px;
+    margin-left: -455px;
+  }
+
+  /* line 237, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .moore-carousel .slide-6 h3 {
+    padding: 0;
+    margin: 27px 0px 0px 27px;
+  }
+
+  /* line 243, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .moore-carousel .slide-6 p {
+    padding: 0;
+    margin: 19px -24px 0 29px;
+  }
+
+  /* line 248, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  #slide-7 {
+    margin-left: 0px;
+    margin-top: -51px;
+  }
+
+  /* line 253, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .moore-carousel .slide-7 h3 {
+    padding: 0;
+    margin: 30px 0px 0 49px;
+  }
+
+  /* line 259, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .moore-carousel .slide-7 p {
+    padding: 0;
+    margin: 22px -15px 0 57px;
+  }
+
+  /* line 264, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  #slide-8 {
+    margin-left: 213px;
+    margin-top: 5px;
+  }
+
+  /* line 269, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .moore-carousel .slide-8 h3 {
+    padding: 0;
+    margin: 40px 0px 20px 29px;
+  }
+
+  /* line 275, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .moore-carousel .slide-8 p {
+    padding: 0;
+    margin: 0 0px 0 31px;
+  }
+
+  /* line 280, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  #slide-9 {
+    margin-top: 226px;
+    margin-left: -655px;
+  }
+
+  /* line 285, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .moore-carousel .slide-9 h3 {
+    padding: 0;
+    margin: 30px 0px 0 47px;
+  }
+
+  /* line 291, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .moore-carousel .slide-9 p {
+    padding: 0;
+    margin: 18px -67px 0 43px;
+  }
+
+  /* Quotes */
+  /* line 298, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .moore-quotes .quote-block {
+    margin: 25px;
+    padding-top: 25px;
+  }
+
+  /* line 303, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .moore-quotes {
+    padding-bottom: 130px;
+  }
+
+  /* line 308, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .moore-carousel .item {
+    display: inline-block;
+    float: left;
+    width: 33%;
+  }
+
+  /*************** 
+  ABOUT YOU
+  ****************/
+  /* line 321, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .resources .col1 {
+    width: calc(100% - 270px);
+    width: -webkit-calc(100% - 270px);
+    width: -moz-calc(100% - 270px);
+  }
+
+  /* line 327, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .resources .col2 {
+    width: 270px;
+  }
+
+  /* line 332, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .jumbo-tron {
+    margin-bottom: 0;
+  }
+
+  /* line 336, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .jumbo-tron h1 {
+    padding-top: 77px;
+    letter-spacing: 5px;
+  }
+
+  /* line 341, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .image-share-text h3 {
+    margin: 0px 14px 6px 29px;
+    font-size: 13px;
+    color: #fff;
+    padding-bottom: 10px;
+  }
+
+  /* line 349, /Users/kaileyowenizard/Desktop/code&co/Kathy_Blog/app/assets/stylesheets/768_EB.css.scss */
+  .jumpstart-text h6 {
+    margin: 0px auto;
+    padding-top: 25px;
+    line-height: 1;
+    width: 150px;
+  }
+}
