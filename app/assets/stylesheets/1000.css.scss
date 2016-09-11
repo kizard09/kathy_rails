@@ -130,6 +130,9 @@
 	.blogs .col.col-1{
 		width: calc(100% - 310px);
 	}
+	.blogs .item {
+		height:360px
+	}
 	.blogs .col.col-2 {
 		width: 310px;
 		padding-left: 60px;
@@ -137,6 +140,9 @@
 	.blogs .item .right{
 		width: 290px;
     	overflow: hidden;
+	}
+	.blogs .item .right img {
+		height:100%;
 	}
 	.blogs .item .left {
 		width: calc(100% - 290px);
