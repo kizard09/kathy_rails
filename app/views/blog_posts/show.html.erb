@@ -6,8 +6,10 @@
           <div class="post">
             <h3><%= @blog_post.title %></h3>
             <h4><%= @blog_post.created_at.strftime("%B %d, %Y") %></h4>
-            <%= image_tag @blog_post.image %>
-            <p><%= nl2br(@blog_post.blog_entry) %></p>
+            <div class="cf">
+              <%= image_tag @blog_post.image %>
+              <p><%= nl2br(@blog_post.blog_entry) %></p>
+            </div>
 <!--             <p>Tags: <em>Trust the Whisper, Books</em></p>
  -->      </div>
           <h6 style="padding-left: 10px;"><%= link_to 'Back to Blogs', blog_posts_path %></h6>

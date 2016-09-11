@@ -1290,6 +1290,8 @@ _____________*/
 .blog  p{
 	color:#666666;
 	margin-bottom: 17px;
+	max-width: 600px;
+    margin: auto;
 }
 .blog .author p {
 	margin-bottom: 10px;
@@ -1325,6 +1327,9 @@ _____________*/
 .blogs img {
 	display: block;
 	width: 100%;
+	margin:10px 10px 10px 0;
+	max-width: 300px;
+	float: right;
 }
 .blogs nav {
 	position: relative !important;
@@ -1398,6 +1403,9 @@ _____________*/
 .blogshow .post {
 	background: #fff;
 	padding:50px;
+}
+.post .cf {
+	width: 100%
 }
 .blogshow .post image{
 	width: 100%;
