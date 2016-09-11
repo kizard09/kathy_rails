@@ -129,6 +129,8 @@
 	}
 	.blogs .col.col-1{
 		width: calc(100% - 310px);
+		width: -webkit-calc(100% - 310px);
+		width: -moz-calc(100% - 310px);
 	}
 	.blogs .item {
 		height:360px
