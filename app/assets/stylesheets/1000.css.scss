@@ -136,9 +136,12 @@
 	}
 	.blogs .item .right{
 		width: 290px;
+    	overflow: hidden;
 	}
 	.blogs .item .left {
-		width: auto;
+		width: calc(100% - 290px);
+		width: -webkit-calc(100% - 290px);
+		width: -moz-calc(100% - 290px);
 	}
 	.hero .left {
 		width:60%;
