@@ -8,7 +8,7 @@
             <h4><%= @blog_post.created_at.strftime("%B %d, %Y") %></h4>
             <div class="cf">
               <%= image_tag @blog_post.image %>
-              <p><%= nl2br(@blog_post.blog_entry) %></p>
+              <p><%= @blog_post.blog_entry %></p>
             </div>
 <!--             <p>Tags: <em>Trust the Whisper, Books</em></p>
  -->      </div>
