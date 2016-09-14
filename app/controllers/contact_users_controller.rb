@@ -30,7 +30,7 @@ class ContactUsersController < ApplicationController
       if @contact_user.save
         ContactMailer.contact_email(@contact_user).deliver_now
         format.html { redirect_to @contact_user, notice: 'Contact user was successfully created.' }
-        format.json { render :show, status: :created, location: @contact_user }
+        format.json { render :show}
       else
         format.html { render :new }
         format.json { render json: @contact_user.errors, status: :unprocessable_entity }
