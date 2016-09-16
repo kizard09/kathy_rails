@@ -2,5 +2,6 @@
 /vendor/ruby/
 /log/*
 /tmp
-config/application.ymlYOUR-FILE-WITH-SENSITIVE-DATA
-config/application.yml
+
+# Ignore application configuration
+/config/application.yml
