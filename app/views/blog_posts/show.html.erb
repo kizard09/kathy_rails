@@ -1,5 +1,5 @@
-<% meta_tag :description, @description %>
-<% meta_tag :keywords, @keywords %>
+<% meta_tag :description, @description unless @description == nil    %>
+<% meta_tag :keywords, @keywords unless @keywords == nil%>
   <div class="container">
   <div class="wrap-no cf">
     <div class="blogs blogshow">
