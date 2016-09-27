@@ -12,9 +12,9 @@
 <div class="bluebox">
   <h3>Categories</h3>
   <p><%= link_to 'View all (' +  @blog_posts.total_count.to_s + ')', blog_posts_path %><br>
-  <% @categories.each do |cat| %>
+ <!--  <% @categories.each do |cat| %>
     <%= link_to cat.name + ' (' + cat.id.to_s + ')', 'blog_posts?category=' + cat.id.to_s  %><br>
-  <% end %>
+  <% end %> -->
  
  </p>
 </div>

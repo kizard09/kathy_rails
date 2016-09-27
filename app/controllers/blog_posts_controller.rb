@@ -9,6 +9,9 @@ class BlogPostsController < ApplicationController
   # GET /blog_posts.json
 
   def index
+    @title = 'Blog | Kathy Izard'
+    @description = 'Hear what Kathy Izard has to say about homeless, mental illness, and inspiration for those with a wrestless soul looking for purpose in life'
+    @keywords = 'Kathy Izard blog, inspirational blog, find your purpose, blog, mental illness blog'
     @blog_posts = BlogPost.page(params[:page])
     filtering_params(params).each do |key, value|
       @blog_posts = @blog_posts.public_send(key, value) if value.present?
@@ -25,7 +28,10 @@ class BlogPostsController < ApplicationController
     @comment = Comment.new 
     @blog_posts = BlogPost.page(params[:page])
     @tags = Tag.all
-    @categories = Category.all
+    @categories = Category.all 
+    @title = @blog_post.title + ' | Kathy Izard'
+    @description = @blog_post.description
+    @keywords = @blog_post.keywords   
   end
 
   # GET /blog_posts/new

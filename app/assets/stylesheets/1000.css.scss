@@ -213,17 +213,23 @@
 	.readersguide::before {
 		content: asset-data-url("bookicon.png");
 		position: absolute;
-		bottom: -5px;
-    	left: -6px;
+	    bottom: -6px;
+	    left: -12px;
 	}
 
 	.readersguide::after {
 		content: asset-data-url("arrowright.png");
 		position: absolute;
-		right: 2px;
-    	bottom: -2.9px;
+		right: -10px;
+   		bottom: -6.9px;
 	}
-
+	.readersguide h6 {
+		display: inline-block;
+	    height: auto;
+	    line-height: initial;
+	    padding-top: 35px;
+	    padding-left: 56px;
+	}
 	.col {
 		padding:0;
 	}

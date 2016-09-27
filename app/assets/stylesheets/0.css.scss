@@ -1136,6 +1136,18 @@ _______________*/
 	margin: auto;
 	padding: 0;
 }
+.fancybox-wrap {
+	z-index: 10000
+}
+.fancybox-wrap iframe {
+	width: 100%;
+	height: 100%;
+}
+.fancybox-overlay {
+	width:100%;
+	height:100%;
+	z-index: 100000 !important;
+}
 /* Contact */
 .contact .hero .wrap{
 	background-image: asset-data-url('contact-kathyizard.png');
@@ -1279,6 +1291,11 @@ _____________*/
 	right:-25px;
 	top: 2px;
 }
+.blogshow .author img{
+	top: -20px;
+    right: -45px !Important;
+}
+    
 .blog .author h6 .icon-angle-right, .blogshow .author h6 .icon-angle-right {
 	line-height: initial;
 	position: relative;
@@ -1638,6 +1655,8 @@ blockquote:before {
 	line-height: 80px;
 	text-align: center;
 	color: #3F7398;
+	position: relative;
+	z-index: 1;
 }
 
 .icon-box {
@@ -1657,6 +1676,7 @@ blockquote:before {
 	position: absolute;
 	bottom: 0.1px;
 	right: 5px;
+	z-index: 0;
 	
 }
 

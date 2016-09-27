@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>The Hundred Story Home | Kathy Izard </title>
-        <meta type="description" content="The Hundred Story Home is a memoir by Kathy Izard about a Journey of Homelessness, Hope, and Healing. Learn to Trust the Whisper.">
-        <meta type="keywords" content="memoir, inspirational book, homelessness, buy the hundred story home, Kathy Izard">
+      <title><%= @title %></title>
+      <% meta_tag :description, @description %>
+      <% meta_tag :keywords, @keywords %>
+        <meta name='description'
+      content='<%= yield_meta_tag(:description, 'Default description') %>'>
+        <meta name='keywords'
+      content='<%= yield_meta_tag(:keywords, 'Default description') %>'>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
          <%= favicon_link_tag 'favicon.ico' %>
      <!--     <%= favicon_link_tag 'mb-icon.png', rel: 'apple-touch-icon', type: 'image/png' %> -->
@@ -11,6 +15,7 @@
          <link type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.6/assets/owl.carousel.min.css" rel="stylesheet" >
          <link type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.6/assets/owl.theme.default.min.css" rel="stylesheet" >
           <link type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" >
+          <link type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet">
         <script rel="stylesheet" src="https://use.typekit.net/zid6riz.js"></script>
         <script>try{Typekit.load({ async: true });}catch(e){}</script>
       

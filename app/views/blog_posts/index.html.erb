@@ -21,8 +21,8 @@
             <h4><%= blog_post.created_at.strftime("%B %d, %Y") %></h4>
             <p><%= truncate(blog_post.blog_entry, :length => 250) %></p>
             <!-- NEED TO UPDATE -->
-            <%=raw tag_links(blog_post.all_tags)%>
-          </div>
+<!--             <%=raw tag_links(blog_post.all_tags)%>
+ -->          </div>
           <div class="right">
             <%= image_tag blog_post.image %>
           </div>

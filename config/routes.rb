@@ -36,4 +36,6 @@ Rails.application.routes.draw do
 
   get 'blog_posts/index'
 
+  get "*any", via: :all, to: "site#not_found"
+
 end
