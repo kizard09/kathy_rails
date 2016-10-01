@@ -1646,11 +1646,24 @@ blockquote:before {
 
 
 /* READERS GUIDE */
-
+.bluebox small, .thsh .hero small {
+	padding: 15px 0 5px;
+    display: inline-block;
+}
+.bluebox .stores img , .thsh .hero .stores img{
+	height: 21px;
+    width: auto;
+}
+ .thsh .hero .stores {
+ padding-bottom:10px;
+ }
 .lgt-blue-box {
 	position: relative;
 	background-color: #BCD8D7;
 	height: 85px;
+}
+.readersguide a {
+	text-decoration:none;
 }
 .readersguide h6 {
 	line-height: 80px;

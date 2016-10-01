@@ -394,5 +394,18 @@ ABOUT YOU
 
 	.about-you-boxes {
 	}
-
+	.jumpstart-text h6 {
+		margin: 0px auto 0 52px;
+		text-align:left;
+	}
+	.jumpstart-text.lgt-blue-box:before {
+		left: 15px;
+	}
+	.jumpstart-text.lgt-blue-box:after {
+	    right: -14px;
+	}
+	.jumpstart-text small {
+		padding-left: 53px !important;
+		text-align:left !important;
+	}
 }
