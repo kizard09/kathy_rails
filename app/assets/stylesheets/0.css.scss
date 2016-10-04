@@ -1293,7 +1293,10 @@ _____________*/
 	top: -20px;
     right: -45px !Important;
 }
-
+.blogs .item .right img {
+	display: block;
+    width: 100%;
+}
 
     
 .blog .author h6 .icon-angle-right, .blogshow .author h6 .icon-angle-right {

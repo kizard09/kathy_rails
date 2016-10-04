@@ -15,13 +15,16 @@
 				<div class="right">
 					<%= image_tag 'the-hundred-story-home.jpg' %>
 				</div>
+
 			</div>
 		</div>
 		</div>
+
 		<div class="container">
 			<div class="wrap">
 		<!-- begin column content-->
-				<div class="col1 col cf">
+		<div class="cf">
+				<div class="col1 col ">
 					<div class="intro">
 						<h6>The Hundred Story Home</h6>
 						<h3>Trust the Whisper</h3>
@@ -116,8 +119,43 @@
 						<small style="color:#666;display:inline-block;width: 100%;text-align: center;position: absolute;bottom: 13px;">coming soon</small>
 					</div>
 				</div> <!-- end col2 -->
+				</div>
 			</div>
-				<%= render 'partials/newsletter' %>
+			<style>
+  #goodreads-widget {
+    font-family: georgia, serif;
+    padding: 18px;
+    background: #fff;
+    -moz-box-shadow: 0px 2px 37px #666;
+    -webkit-box-shadow: 0px 2px 37px #666;
+    box-shadow: 0px 2px 37px #666;
+  }
+  #goodreads-widget h1 {
+    font-weight:normal;
+    font-size: 25px;
+    margin-bottom: 0;
+  }
+  #goodreads-widget a {
+    text-decoration: none;
+  }
+  #goodreads-widget iframe{
+  	width: 100%;
+  }
+
+
+  #goodreads-widget .gr_branding{
+    color: #382110;
+    font-size: 11px;
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+</style>
+<div id="goodreads-widget" class="wrap-no">
+  <div id="gr_header"><h1><a href="https://www.goodreads.com/book/show/32027227-the-hundred-story-home">Goodreads reviews for The Hundred Story Home</a></h1></div>
+  <iframe id="the_iframe" src="https://www.goodreads.com/api/reviews_widget_iframe?did=DEVELOPER_ID&format=html&header_text=Goodreads+reviews+for+The+Hundred+Story+Home&isbn=0997778407&links=660&review_back=fff&stars=000&text=000" frameborder="0"></iframe>
+  
+</div>
+			<%= render 'partials/newsletter' %>
 			
 		</div>
 </div>
