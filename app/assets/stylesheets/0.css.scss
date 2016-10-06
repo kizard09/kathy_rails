@@ -1153,6 +1153,7 @@ _______________*/
 	background-repeat: no-repeat;
 	background-size: auto 106%;
     background-position: -80px -10px;
+    min-height: 300px;
 }
 input[type="text"]  {
 	line-height:55px;
@@ -1273,11 +1274,14 @@ _____________*/
 .blog .hero .wrap-no {
 	background-image: asset-data-url('kathy-back.jpg');
 	background-repeat: no-repeat;
-	background-position: center top;
-	max-height: 340px;
-	width: 100%;
-	text-align: center;
-	display: table;
+    background-position: center top;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 40px;
+    text-align: center;
+    display: table;
+    padding-top:40px;
 }
 .blog .hero .wrap-no div{
 	display: table-cell;
@@ -1307,11 +1311,13 @@ _____________*/
 .blog .author h6 .icon-angle-right:hover, .blogshow .author h6 .icon-angle-right:hover {
 	text-decoration: underline;
 }
-.blog  p{
+.blog .hero p {
+	margin:auto;
+}
+.blog p{
 	color:#666666;
 	margin-bottom: 17px;
 	max-width: 600px;
-    margin: auto;
 }
 .blog .author p {
 	margin-bottom: 10px;
@@ -1342,7 +1348,7 @@ _____________*/
 	width:100%;
 }
 .blogs .left {
-	padding:50px 40px;
+	padding:30px;
 }
 .blogshow img {
 	display: block;
@@ -1422,7 +1428,7 @@ _____________*/
 ------------*/
 .blogshow .post {
 	background: #fff;
-	padding:50px;
+	padding:40px;
 }
 .post .cf {
 	width: 100%
@@ -1444,7 +1450,9 @@ _____________*/
 }
 .media-vids .item {
 	width: 100%;
-
+}
+.media-vids p {
+	padding:10px;
 }
 .media-vids .item img {
 	margin-bottom: 20px;
@@ -1453,17 +1461,6 @@ _____________*/
 /*Fonts*/
 @charset "UTF-8";
 
-@font-face {
-  font-family: "kathy-izard";
-  src:asset-data-url("kathy-izard.eot");
-  src:url("kathy-izard.eot?#iefix") format("embedded-opentype"),
-   asset-data-url("kathy-izard.woff") format("woff"),
-    asset-data-url("kathy-izard.ttf") format("truetype"),
-    url("kathy-izard.svg#kathy-izard") format("svg");
-	  font-weight: normal;
-	  font-style: normal;
-
-}
 [data-icon]{
 	height:30px;
 	width:30px;
@@ -1521,7 +1518,7 @@ Columnn Styles
 	width: 100%;
 	padding:0 10px;
 }
-.speaking .col {
+.speaking .col, .contact .col{
 	margin-top:0;
 }
 
@@ -1719,6 +1716,10 @@ blockquote:before {
 .main-content p {
 	padding-right: 20px;
 	padding-bottom: 25px;
+}
+.moore-background .main-content, .moore-background .about-moore {
+	padding-left:15px;
+	padding-right:15px;
 }
 
 .img-with-text img {
@@ -2308,11 +2309,17 @@ blockquote:before {
 	.blogs .author img {
 		height: 113px;
 	}
+	.blogs .left {
+		padding:50px 40px;
+	}
 	.blogs .col.col-1{
 		width:calc(100% - 210px);
 	}
 	.blogs .col.col-2{
 		width: 210px;
+	}
+	.blogshow img {
+	    margin: 0 0 15px 15px;
 	}
 	/*Speaking*/
 	.speaking .hero .wrap {
@@ -2454,6 +2461,7 @@ MOORE PLACE
 		width: 100%;
 		float: none;
 	}
+
 	.header-moore .bluebox p{
 		font-size: 16px;
 	}
@@ -2912,6 +2920,10 @@ ABOUT YOU
 	.mug .col-1.col {
 		width: 530px !important;
 		padding:0 !important;
+	}
+	.moore-background .main-content, .moore-background .about-moore {
+		padding-left:0px;
+		padding-right:0px;
 	}
 }
 @media (max-width:1020px){
