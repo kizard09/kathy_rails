@@ -19,7 +19,7 @@
           <div class="left">
             <h3><%= link_to blog_post.title, blog_post %></h3>
             <h4><%= blog_post.created_at.strftime("%B %d, %Y") %></h4>
-            <p><%= truncate(blog_post.blog_entry.html_safe, :length => 250) %></p>
+            <p><%= truncate(raw(blog_post.blog_entry), :length => 250) %></p>
             <!-- NEED TO UPDATE -->
 <!--             <%=raw tag_links(blog_post.all_tags)%>
  -->          </div>
