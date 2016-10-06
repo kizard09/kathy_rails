@@ -19,13 +19,7 @@
         <script rel="stylesheet" src="https://use.typekit.net/zid6riz.js"></script>
         <script>try{Typekit.load({ async: true });}catch(e){}</script>
       
-        <%= stylesheet_link_tag   '0', media: 'all', 'data-turbolinks-track' => true %>
-      
-       <%= stylesheet_link_tag   '768', media: 'all', 'data-turbolinks-track' => true %>
-      
-       <%= stylesheet_link_tag   '1000', media: 'all', 'data-turbolinks-track' => true %>
-      
-       
+        <%= stylesheet_link_tag   'application', media: 'all', 'data-turbolinks-track' => true %>     
 
    <%= csrf_meta_tags %>
 </head>
@@ -102,9 +96,9 @@
       </div>
     </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <%= javascript_include_tag Ckeditor.cdn_url %>
    <%= javascript_include_tag 'jquery.fancybox.pack.js', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'scripts', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'scripts_EB', 'data-turbolinks-track' => true %>
 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.6/owl.carousel.min.js"></script>
 </body>

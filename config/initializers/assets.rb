@@ -4,15 +4,11 @@
 Rails.application.config.assets.version = '1.0'
 
 Rails.application.config.assets.precompile += %w( 0.css )
-Rails.application.config.assets.precompile += %w( 0_EB.css )
-Rails.application.config.assets.precompile += %w( 768.css )
-Rails.application.config.assets.precompile += %w( 768_EB.css )
-Rails.application.config.assets.precompile += %w( 1000.css )
-Rails.application.config.assets.precompile += %w( 1000_EB.css )
 Rails.application.config.assets.precompile += %w( jquery.fancybox.css )
 Rails.application.config.assets.precompile += %w( scripts.js )
-Rails.application.config.assets.precompile += %w( scripts_EB.js )
 Rails.application.config.assets.precompile += %w( jquery.fancybox.pack.js )
+Rails.application.config.assets.precompile += %w( ckeditor/* )
+
 # Add additional assets to the asset load path
 # Rails.application.config.assets.paths << Emoji.images_path
 

@@ -10,10 +10,10 @@
             <h4><%= @blog_post.created_at.strftime("%B %d, %Y") %></h4>
             <div class="cf">
               <%= image_tag @blog_post.image %>
-              <p><%= @blog_post.blog_entry %></p>
+
+              <p><%= raw(@blog_post.blog_entry) %></p>
             </div>
-<!--             <p>Tags: <em>Trust the Whisper, Books</em></p>
- -->      </div>
+     </div>
           <h6 style="padding-left: 10px;"><%= link_to 'Back to Blogs', blog_posts_path %></h6>
       </div>
 
