@@ -12,13 +12,17 @@ class BlogPostsController < ApplicationController
     @title = 'Blog | Kathy Izard'
     @description = 'Hear what Kathy Izard has to say about homeless, mental illness, and inspiration for those with a wrestless soul looking for purpose in life'
     @keywords = 'Kathy Izard blog, inspirational blog, find your purpose, blog, mental illness blog'
+
     @blog_posts = BlogPost.page(params[:page])
+
+
     filtering_params(params).each do |key, value|
       @blog_posts = @blog_posts.public_send(key, value) if value.present?
     end
     @categories = Category.all
     @tags = Tag.all
     @first_blog = BlogPost.first
+    @first_blog.blog_entry = @first_blog.blog_entry.html_safe
   end
 
 
