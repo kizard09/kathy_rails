@@ -1661,8 +1661,15 @@ blockquote:before {
 	background-color: #BCD8D7;
 	height: 85px;
 }
-.readersguide a {
+.readersguide a, .jumpstart-text a {
 	text-decoration:none;
+}
+.jumpstart-text h6 {
+	z-index:1;
+	position:relative;
+}
+.jumpstart-text:after {
+	z-index:0;
 }
 .readersguide h6 {
 	line-height: 80px;
