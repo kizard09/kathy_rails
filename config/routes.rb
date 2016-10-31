@@ -29,6 +29,8 @@ Rails.application.routes.draw do
 
   get 'site/speaking_email'
 
+  get 'site/littlelibrary'
+  
   get 'your_posts' => 'blog_posts#your_posts'
   get 'user_posts' => 'blog_posts#user_posts'
   
@@ -36,6 +38,8 @@ Rails.application.routes.draw do
   resources :blog_posts
 
   get 'blog_posts/index'
+
+
 
   get "*any", via: :all, to: "site#not_found"
 

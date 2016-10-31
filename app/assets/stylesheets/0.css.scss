@@ -3146,4 +3146,21 @@ ABOUT YOU
 	}
 }
 
+.lib-images img {
+	width:100%;
+}
+@media screen and (min-width:600px) {
+	.lib-images img {
+		width:50%;
+		float:left;
+		padding:5px;
+	}
+}
+@media screen and (min-width:800px) {
+	.lib-images img {
+		width:25%;
+		float:left;
+	}
+}
+
 

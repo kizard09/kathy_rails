@@ -50,6 +50,12 @@ class SiteController < ApplicationController
     @description = 'The Hundred Story Home is a memoir by Kathy Izard about a Journey of Homelessness, Hope, and Healing. Learn to Trust the Whisper.'
     @keywords = 'memoir, inspirational book, homelessness, buy the hundred story home, Kathy Izard'
   end
+  def littlelibrary
+    @title = 'Little Library Contest | Kathy Izard'
+    @description = "Enter Kathy's #trustthewhisper Little Free Library Contest!"
+
+    @keywords = 'little free library, Kathy Izard'
+  end
   def not_found
     respond_to do |format|
       format.html { render status: 404 }
