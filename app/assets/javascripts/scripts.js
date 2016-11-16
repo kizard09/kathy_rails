@@ -60,5 +60,7 @@ $(function(){
 		animateOut: 'slideOutUp',
         animateIn: 'slideInUp'
 	});
+
 	$(".fancybox").fancybox();
+
 });
