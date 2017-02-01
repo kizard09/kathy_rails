@@ -1,12 +1,12 @@
 class ContactMailer < ApplicationMailer
-	default from: 'kailey.izard@gmail.com'
+	default from: ''
  
 	def contact_email(contact_user)
 	    @contact_user = contact_user
-	    mail(to: 'kathyizardclt@gmail.com', subject: 'New Contact Submission')
+	    mail(to: '', subject: '')
   	end
   	def speaking_email(speaking_user)
 	    @speaking_user = speaking_user
-	    mail(to: 'kathyizardclt@gmail.com', subject: 'New Speaking Request')
+	    mail(to: '', subject: '')
   	end
 end

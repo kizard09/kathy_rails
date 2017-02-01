@@ -1015,6 +1015,17 @@ _________________________*/
 	width: -webkit-calc(100% - 29px);
 	width: -moz-calc(100% - 29px);
 }
+.contact .pop-let {
+	margin-bottom:0;
+}
+.contact .col.col-2 {
+	margin:40px 0;
+}
+@media (min-width:768px){
+.contact .col.col-1 {
+	margin-top:40px
+} 
+}
 .about h3, .contact h3 {
 	text-align: center;
 }
@@ -1025,7 +1036,12 @@ _________________________*/
 .about h6 {
 	margin-bottom: 7px;
 }
-
+.contact-home {
+	margin-bottom:40px;
+}
+.contact-home h3 {
+	text-align:center !important;
+}
 .about p, .about ul li, .contact p, .contact ul li {
 	color: #666666;
 	font:18px 'adobe-caslon-pro', serif;

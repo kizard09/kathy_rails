@@ -12,9 +12,11 @@
         <div class="bio">            
             <h3>Contact Kathy</h3>
             <h6>Speaking</h6>
-            <p>If you are interested in scheduling an event, please fill out <%= link_to 'this form', site_speaking_path %></a>. This required form is a valuable step in helping us to be better prepared when we connect.</p>
+            <p>If you are interested in scheduling an event, please see my <%= link_to 'speaking page', site_speaking_path %></a>. Mention speaking topics and read some reviews of past events!</p>
             <h6>Media</h6>
-            <p>If you are with a media outlet and need photos or press information, click here</p>
+            <p>If you are with a media outlet and need photos or press information, <a href="mailto:kathy@kathyizard.com?subject=Media Request">click here</a>.</p>
+            <h6>General</h6>
+            <p>For any other reason you'd like to contact me, please <a href="mailto:kathy@kathyizard.com?subject=Contact&body=Hi Kathy! I would love to email you about...">click here</a>.</p>
             <h6>homelessness resources</h6>
             <p>In Charlotte:<br>
             Urban Ministry Center and Moore Place<br>
@@ -61,8 +63,11 @@
         </div>  
     </div>
     <div class="col col-2">
-    <%= render 'contact_users/form' %>
-    </div>
+    <div class="bluebox">
+    <h3>I would love to hear from you! Please email me at <a href="mailto:kathy@kathyizard.com?subject=Contact Request&body=Hi Kathy! I am emailing to contact you about..." style="color:#bbd6d9">kathy@kathyizard.com</a><br><br><a href="mailto:kathy@kathyizard.com?subject=Contact Request&body=Hi Kathy! I am emailing to contact you about..." class="button lblue">here</a> </h3>
+<!--     <%= render 'contact_users/form' %>
+ -->    </div>
+ </div>
     </div>
 
     <%= render 'partials/feeds' %>
