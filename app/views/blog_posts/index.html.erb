@@ -20,9 +20,7 @@
             <h3><%= link_to blog_post.title, blog_post %></h3>
             <h4><%= blog_post.created_at.strftime("%B %d, %Y") %></h4>
             <p><%= truncate(raw(blog_post.blog_entry), :length => 250) %></p>
-            <!-- NEED TO UPDATE -->
-<!--             <%=raw tag_links(blog_post.all_tags)%>
- -->          </div>
+        </div>
           <div class="right">
             <%= image_tag blog_post.image %>
           </div>

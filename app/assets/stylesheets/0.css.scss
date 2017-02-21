@@ -59,6 +59,28 @@ body {
 .right{
 	float: right;
 }
+.border {
+	border:10px white solid;
+	float: none !important;
+    margin-left: 0 !important;
+    display:block;
+}
+.church {
+	position:relative
+}
+.arrow-right {
+  width: 0; 
+  height: 0; 
+	border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 25px solid white;
+    position: absolute;
+    right: 100%;
+    left: 20px;
+    bottom: 20px;
+    margin: auto;
+}
+
 h1 {
 	font:72px 'futura-pt', verdana, sans-serif;
 	color: #fff;
@@ -1271,9 +1293,26 @@ _____________*/
 .speaking .bluebox h3 {
 	font-size: 18px !important
 }
+.speaking .bluebox .popup h3 {
+	color: #487497 !important;
+}
+.speaking .bluebox .popup p {
+	color: #666 !important;
+}
 .speaking .bluebox p {
 	font-size: 16px !important
 }
+.speaking .pop-let {
+     width: initial;
+    padding-left: 0; 
+    font: 700 12px/38px 'futura-pt', verdana, sans-serif; 
+ 
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.speaking .pop-let:before, .speaking .pop-let:after {
+	content:none;
+} 
 
 .int {
 	margin:40px 0;
