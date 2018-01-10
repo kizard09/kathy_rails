@@ -2,7 +2,7 @@
 		<div class="wrap-no">
 		<div class="jumbo-tron">
 			<h1>What's Your Whisper?</h1>
-			<a href="mailto:kathy.izard@me.com" class="button dblue">tell your story</a>
+			<a href="mailto:kathy.izard@me.com?subject=Tell Your Story Submission" class="button dblue">tell your story</a>
 		</div>
 		<div class="box-model cf">
 			<div class="col1 col">
@@ -10,7 +10,7 @@
 					<h3>About You</h3>
 					<p>I wrote <i>The Hundred Story Home</i> not to convince you to solve homelessness in your community but to help you solve the homelessness in you. Do you know what I'm talking about? That feeling that what you are doing isn't what you are supposed to be doing? If you are looking for a purpose, whether it is as big as a building or as small as random acts of kindness, I am hoping my book inspired you to find that one thing that you were meant to do.</p>
 
-					<p>My hope is that reading <i>The Hundred Story Home</i> inspires you to begin asking yourself What's My Whisper? I would love to be helpful to you on that journey by creating a community of people looking for purpose, telling you about great resources, and offering some of my own. But really, that question of What's My Whisper can only be answered by you. I've developed some steps to help jumpstart your journey. Download them <a href="#" class="here-link">here</a></p>
+					<p>My hope is that reading <i>The Hundred Story Home</i> inspires you to begin asking yourself What's My Whisper? I would love to be helpful to you on that journey by creating a community of people looking for purpose, telling you about great resources, and offering some of my own. But really, that question of What's My Whisper can only be answered by you. I've developed some steps to help jumpstart your journey. Download them <%=link_to "here", asset_path("KI_JYJ.pdf"), target: 'blank' %>.</p>
 				</div>
 				<div class="resources">
 					<h3>Resources</h3>
@@ -38,7 +38,7 @@
 					<div class="image-content">
 						<div class="image-share-text">
 							<h3>Share what's been whispering to you</h3>
-							<%= link_to 'share', "mailto:kathy.izard@me.com", class: "button sm-button" %>
+							<%= link_to 'share', "mailto:kathy.izard@me.com?subject=Share What's Been Whispering to You Submission", class: "button sm-button" %>
 						</div>
 					</div>
 				</div>
@@ -46,15 +46,6 @@
 					<div class=" jumpstart-text lgt-blue-box">
 						<h6><%=link_to "jumpstart your journey", asset_path("KI_JYJ.pdf"), target: 'blank' %></h6>
 						
-					</div>
-					<div class="bluebox">
-						<%= image_tag 'the-hundred-story-home.jpg' %>
-						<a class="button lblue" href="https://www.amazon.com/Hundred-Story-Home-Journey-Homelessness/dp/0997778407/ref=sr_1_1?ie=UTF8&qid=1475169847&sr=8-1&keywords=the+hundred+story+home" target="_blank">Buy Now</a><br>
-			<small>Support your local book store in Charlotte! Available at</small>
-			<div class="stores">
-			<%= image_tag 'papersky.png' %>
-			<%= image_tag 'parkroad.png' %>
-			</div>
 					</div>
 				</div>	
 			</div>

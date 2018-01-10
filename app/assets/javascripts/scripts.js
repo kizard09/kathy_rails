@@ -5,7 +5,7 @@ $(function(){
 	});
 	$('.pop-let').on('click', function(e){
 		e.preventDefault();
-		$(this).parent().find('.popup').addClass('open');
+		$(this).parent().parent().find('.popup').addClass('open');
 	});
 	$('.popup span').on('click', function(){
 		$('.popup').removeClass('open');
