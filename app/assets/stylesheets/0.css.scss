@@ -179,7 +179,7 @@ textarea {
 	display: none;
 }
 .button {
-	width:140px;
+	width:150px;
 	height: 40px;
 	color: #999;
 	border:1px solid #999;
@@ -439,6 +439,10 @@ footer .primary {
 	top: 0;
 	height: 65px;
 }
+footer .primary a {
+	display:inline;
+	margin:0 10px;
+}
 footer .primary .wrap {
 	width: 450px;
 	height: 65px
@@ -618,6 +622,17 @@ footer .primary a {
 	-webkit-box-shadow: 0px 2px 37px #666;
 	box-shadow: 0px 2px 37px #666;
 }
+.book .left img {
+	height:400px;
+	width:auto;
+	margin: 40px auto 20px;
+	display:block;
+}
+.book .left h3 {
+	text-align:center;
+	padding-bottom:25px;
+	font-size:25px;
+}
 
 .container {
 	background-color: #f3f3f3;
@@ -685,12 +700,7 @@ footer .primary a {
 	position: relative;
 	min-height: 400px;
 }
-.book .left img {
-    bottom: 40px;
-    position: absolute;
-    left: 33%;
-    transform: translatex(-50%);
-}
+
 .book .left:after {
 	content: '';
 	width: calc(100% - 30px);
@@ -1012,6 +1022,9 @@ footer .primary a {
 .popup.open {
 	display: block;
 }
+.popup .right{
+	text-align:center
+}
 /*ABOUT
 _________________________*/
 .about .hero {
@@ -1175,6 +1188,9 @@ _______________*/
 	margin: auto;
 	padding: 0;
 }
+.thsh .hero .right img {
+	box-shadow:none;
+	}
 .fancybox-wrap {
 	z-index: 10000
 }
@@ -1188,10 +1204,10 @@ _______________*/
 }
 /* Contact */
 .contact .hero .wrap{
-	background-image: asset-data-url('contact-kathyizard.png');
+	background-image: asset-data-url('kathy-speaking-2.jpg');
 	background-repeat: no-repeat;
 	background-size: auto 106%;
-    background-position: -80px -10px;
+	background-position: -196px -10px;
     min-height: 300px;
 }
 input[type="text"]  {
@@ -1498,7 +1514,7 @@ _____________*/
 }
 /*Speaking*/
 .speaking .hero .wrap{
-	background-image: asset-data-url("speaking-kathy.png");
+	background-image: asset-data-url("kathy-speaking-2.jpg");
 	background-repeat: no-repeat;
 	height: 250px;
 	background-position: center;
@@ -1775,6 +1791,9 @@ blockquote:before {
 	width: 100%;
 	margin: 0 auto;
 }
+.header-moore.cf:afters {
+	display:block
+}
 
 .main-content {
 	padding-top: 25px;
@@ -2037,6 +2056,18 @@ blockquote:before {
 .hide-ex {
 	overflow:hidden;
 }
+/*----------------
+Reader Stories
+-------------------*/
+.reader .solomon-video{
+	position:relative;
+}
+
+.reader .solomon-video img{
+	display:block;
+	width:100%
+}
+
 @media (min-width:768px){
 	.mobile {
 		display: none;
@@ -2411,6 +2442,25 @@ blockquote:before {
 	.media-vids .item img {
 		width:100%;
 	}
+	/*-------
+	Reader's Stories
+	--------*/
+	.reader .main-content {
+		width:100%
+	}
+	.popup .left{
+		width:66.6%;
+	}
+	.popup .right{
+		width:33.3%;
+		padding-left:10px;
+	}
+	.popup .right img{
+		width:100%;
+	}
+	.popup .right {
+		margin-top:100px;
+	}
 }
 
 @media (min-width: 820px){
@@ -2462,6 +2512,7 @@ blockquote:before {
     	width: -moz-calc(40% - 20px);
     	margin-top: 30px;
 	}
+	
 	.thsh .hero .left {
 		padding:50px 0px 20px 30px;
 	}
@@ -2487,7 +2538,7 @@ blockquote:before {
 		background-color: #BCD8D7;
 		height: 83px;
 
-}	
+	}	
 	.readersguide h6 {
 		line-height: 1;
 		font: 700 12px/82px 'futura-pt', verdana, sans-serif;
@@ -2498,14 +2549,14 @@ blockquote:before {
 		position: absolute;
 		bottom: -5px;
     	left: 0px;
-}
+	}
 
 	.readersguide::after {
 		content: asset-data-url("arrowright.png");
 		position: absolute;
 		right: 2px;
     	bottom: -2.9px;
-}
+	}
 
 /*************** 
 MOORE PLACE 
@@ -2533,9 +2584,6 @@ MOORE PLACE
 		font-size: 16px;
 	}
 	.header-moore .bluebox {
-/*		float: right;
-		height: 310px;
-		width: 50%;*/
 		padding: 0px 33px;
 		line-height: 5;
 		font: 15px/21px 'adobe-caslon-pro', serif;
@@ -2564,10 +2612,6 @@ MOORE PLACE
 	.hide-ex .cf{
 		display:table;
 	}
-
-
-
-
 	#slide-1
 	#slide-2
 	#slide-3
@@ -2786,7 +2830,9 @@ ABOUT YOU
 	    line-height: 1;
 	    width: 150px;
 	}
-
+	.contact .hero .wrap {
+		background-position: initial;
+	}
 
 }
 

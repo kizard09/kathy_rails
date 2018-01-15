@@ -38,6 +38,12 @@ class SiteController < ApplicationController
     @keywords = 'speak to Kathy Izard, media Kathy Izard, Kathy Izard email, Kathy Izard media request'
   end
 
+  def readersstories
+    @title = 'Reader Stories| Kathy Izard'
+    @description = 'Stories from my readers'
+    @keywords = ''
+  end
+
   def contact
     @contact_user = ContactUser.new
     @title = 'Contact | Kathy Izard'

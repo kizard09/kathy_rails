@@ -23,6 +23,8 @@ Rails.application.routes.draw do
 
   get 'site/contact'
 
+  get 'site/readersstories'
+
   get 'site/book'
 
   get 'site/contact_email'
