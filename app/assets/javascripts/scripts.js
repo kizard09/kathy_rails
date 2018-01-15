@@ -3,6 +3,11 @@ $(function(){
 		e.preventDefault();
 		$('.popup').addClass('open');
 	});
+	$('.pop-home').on('click', function(e){
+		e.preventDefault();
+		console.log('fdas');
+		$('#popup').addClass('open');
+	});
 	$('.pop-let').on('click', function(e){
 		e.preventDefault();
 		$(this).parent().parent().find('.popup').addClass('open');
@@ -47,7 +52,9 @@ $(function(){
 	    onTranslate:callback,
 	    onInitialized:callback
 	});
-
+$('.owl-item.active.center').on('click', function (){
+		console.log('fdafd')
+	});
 	function callback(event){
 		var items = event.item.count;     // Number of items
     	var item  = (event.item.index + 1) - event.relatedTarget._clones.length / 2;  

@@ -528,7 +528,9 @@ footer .primary a {
 #hero, #hero .owl-stage-outer{
 	height: 100%;
     padding-top: 20px;
-
+}
+#hero .owl-stage-outer{
+	z-index: 1000;
 }
 #hero .owl-stage{
 	height: 100%;
@@ -546,6 +548,7 @@ footer .primary a {
     -moz-transform: translateX(-50%);
     margin-top: 50px;
 }
+
 #hero .owl-item.center img {
 	width: 300px;
 	height: auto;
@@ -557,6 +560,9 @@ footer .primary a {
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
+}
+#hero .owl-item.center.active {
+	z-index:10000;
 }
 .num {
 	font:bold 12px 'futura-pt', arial, sans-serif;
@@ -1016,8 +1022,8 @@ footer .primary a {
 	color: #fff;
 	background: #487497;
 }
-.popup p {
-	color: #487497;
+.popup p, #popup p {
+	color: #487497 !important;
 }
 .popup.open {
 	display: block;
@@ -2805,25 +2811,19 @@ ABOUT YOU
 	.resources .col2 {
 		width: 270px;
 	}
-
-
 	.jumbo-tron {
 		margin-bottom: 0;
 	}
-
 	.jumbo-tron h1 {
 		padding-top: 77px;
 		letter-spacing: 5px;
 	}
-
 	.image-share-text h3 {
 		margin: 0px 14px 6px 29px;
 		font-size: 13px;
 		color: #fff;
 		padding-bottom: 10px;
-
 	}
-
 	.jumpstart-text h6 {
 	   	margin:0 auto;
 	    padding-top: 25px;
@@ -2833,7 +2833,6 @@ ABOUT YOU
 	.contact .hero .wrap {
 		background-position: initial;
 	}
-
 }
 
 @media screen and (min-width:1000px){
@@ -2848,8 +2847,7 @@ ABOUT YOU
 		height: 450px;
 		background-size: cover;
 	}
-	#hero , #hero  .owl-stage-outer{
-	}
+
 	#hero .owl-item:not(.center) img {
 		height: 250px;
 		width: auto;
