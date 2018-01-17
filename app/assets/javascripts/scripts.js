@@ -64,6 +64,7 @@ $('.owl-item.active.center').on('click', function (){
 	$('#testimonials').owlCarousel({
 		items:1,
 		dots:true,
+		autoplay:'autoplay',
 		animateOut: 'slideOutUp',
         animateIn: 'slideInUp'
 	});

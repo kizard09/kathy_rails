@@ -1009,7 +1009,6 @@ footer .primary a {
 	cursor: pointer;
 	background-color: #fff;
 	color: #487497;
-	
 	text-align: center;
     height: 26px;
     border-radius: 50%;
@@ -1017,7 +1016,10 @@ footer .primary a {
     width: 26px !important;
 	font: 700 20px/18px 'futura-pt', verdana, sans-serif !important;
 }
-
+.popup small {
+	color: #487497;
+	text-align: right
+}
 .popup span:hover{
 	color: #fff;
 	background: #487497;
@@ -2068,11 +2070,15 @@ Reader Stories
 .reader .solomon-video{
 	position:relative;
 }
-
 .reader .solomon-video img{
 	display:block;
 	width:100%
 }
+.grid .item img, .grid .item{
+	width:100%;
+	display:block;
+}
+
 
 @media (min-width:768px){
 	.mobile {
@@ -2170,10 +2176,10 @@ Reader Stories
 	}
 	.primary a {
 		display: table-cell;
-		letter-spacing: 1px;
+		letter-spacing: 0px;
 		text-align: center;
 		color: #487497;
-		width: 20%;
+		width: 10%;
 		line-height:76px; 
 	}
 	.primary a:hover {
@@ -2451,6 +2457,33 @@ Reader Stories
 	/*-------
 	Reader's Stories
 	--------*/
+	.grid .item{
+		width:33.33%;
+		float:left;
+	}
+	.grid .item img {
+		width: 100%
+	}
+	.grid .item {
+		position:relative;
+	}
+	.grid .item .hover {
+		position:absolute;
+		top:0;
+		left:0;
+		opacity:0;
+		width:100%;
+		height:100%;
+		padding:5px;
+	}
+	.grid .item .hover small {
+		font-size:14px;
+		color: #666;
+	}
+	.grid .item:hover .hover {
+		background: rgba(255,255,255,0.8);
+		opacity:1
+	}
 	.reader .main-content {
 		width:100%
 	}
@@ -2836,6 +2869,9 @@ ABOUT YOU
 }
 
 @media screen and (min-width:1000px){
+	.grid .item{
+		width:25%;
+		}
 	.desktop {
 		display: block;
 	}
@@ -3149,8 +3185,6 @@ MOORE PLACE
 		margin-top: -12px;
     	margin-left: 0;
 	}
-
-	
 
 	#slide-5 {
 		margin-top: 24px;
