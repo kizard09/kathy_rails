@@ -2078,7 +2078,9 @@ Reader Stories
 	width:100%;
 	display:block;
 }
-
+.grid .item .hover {
+	padding: 5px 10px;
+}
 
 @media (min-width:768px){
 	.mobile {
@@ -2458,7 +2460,7 @@ Reader Stories
 	Reader's Stories
 	--------*/
 	.grid .item{
-		width:33.33%;
+		width:50%;
 		float:left;
 	}
 	.grid .item img {
@@ -2483,6 +2485,9 @@ Reader Stories
 	.grid .item:hover .hover {
 		background: rgba(255,255,255,0.8);
 		opacity:1
+	}
+	.story-line {
+		font-size:15px;
 	}
 	.reader .main-content {
 		width:100%
@@ -2519,6 +2524,7 @@ Reader Stories
 	.contact .col-2 {
 		padding-left: 20px;
 	}
+	
 }
 @media screen and (min-width: 768px){
 
@@ -3070,6 +3076,9 @@ ABOUT YOU
 		padding-left:0px;
 		padding-right:0px;
 	}
+	.grid .item{
+		width:33.3%;
+	}
 }
 @media (max-width:1020px){
 	.secondary .wrap {
@@ -3296,6 +3305,11 @@ ABOUT YOU
 	.lib-images img {
 		width:25%;
 		float:left;
+	}
+}
+@media screen and (min-width:1350px) {
+	.grid .item{
+		width:25%;
 	}
 }
 
