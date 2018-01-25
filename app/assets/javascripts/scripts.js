@@ -5,8 +5,11 @@ $(function(){
 	});
 	$('.pop-home').on('click', function(e){
 		e.preventDefault();
-		console.log('fdas');
 		$('#popup').addClass('open');
+	});
+	$('.pop-faq').on('click', function(e){
+		e.preventDefault();
+		$('#popdown').addClass('open');
 	});
 	$('.pop-let').on('click', function(e){
 		e.preventDefault();
