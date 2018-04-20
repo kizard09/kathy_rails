@@ -178,6 +178,7 @@ textarea {
 .hide {
 	display: none;
 }
+
 .button {
 	width:150px;
 	height: 40px;
@@ -670,6 +671,14 @@ footer .primary a {
 .bluebox p, .review p, .hero p, .bluebox p a {
 	color:#fff !important;
 	text-decoration: none;
+}
+.order-links div {
+	width:50%;
+	position:relative;
+	display: block;
+}
+.order-links div a{
+	display: block;
 }
 .bluebox h3 {
 	color: #bbd6d9 !important;
@@ -2276,7 +2285,24 @@ Reader Stories
 		width: 50%;
 		vertical-align: middle;
 	}
-
+	.order-links div:first-of-type img {
+		width:70%;
+		margin:auto;
+	}
+	.order-links div:nth-of-type(4) img {
+		width:81%;
+		margin:auto;
+	}
+	.order-links div {
+		width:50%;
+		float:left;
+		position:relative;
+		display: block;
+	}
+	.order-links div a{
+		display: block;
+		text-align: center;
+	}
 	.book .left{
 		padding: 15px;
 
@@ -2875,7 +2901,33 @@ ABOUT YOU
 }
 
 @media screen and (min-width:1000px){
-	
+	.order-links div {
+	    width: 19%;
+	    float: none;
+	    position: relative;
+	    display: inline-block;
+	    height:60px;
+	}
+	.order-links a {
+		display: block;
+	    position: absolute;
+	    text-align: center;
+	    top: 50%;
+	    transform: translateY(-50%);
+	    -webkit-transform: translateY(-50%);
+	    -moz-transform: translateY(-50%);
+	}
+	.order-links div:nth-of-type(2) a {
+		padding-right:10px;
+	}
+	.order-links {
+		height: 80px;
+	    display: block;
+	    position: relative;
+	}
+	.order-links img {
+		margin-bottom: 0;
+	}
 	.desktop {
 		display: block;
 	}
