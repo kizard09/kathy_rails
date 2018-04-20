@@ -672,6 +672,10 @@ footer .primary a {
 	color:#fff !important;
 	text-decoration: none;
 }
+.order-links div img{
+	width:100%;
+	margin-bottom: 20px;
+}
 .order-links div {
 	width:50%;
 	position:relative;
@@ -2285,6 +2289,34 @@ Reader Stories
 		width: 50%;
 		vertical-align: middle;
 	}
+
+	.thsh .order-links div {
+	    width: 19%;
+	    float: none;
+	    position: relative;
+	    display: inline-block;
+	    height:100px;
+	}
+	.thsh .order-links a {
+		display: block;
+	    position: absolute;
+	    text-align: center;
+	    top: 50%;
+	    transform: translateY(-50%);
+	    -webkit-transform: translateY(-50%);
+	    -moz-transform: translateY(-50%);
+	}
+	.thsh .order-links div:nth-of-type(2) a {
+		padding-right:10px;
+	}
+	.thsh .order-links {
+		height: 100px;
+	    display: block;
+	    position: relative;
+	}
+	.thsh .order-links img {
+		margin-bottom: 0;
+	}
 	.order-links div:first-of-type img {
 		width:70%;
 		margin:auto;
@@ -2901,12 +2933,16 @@ ABOUT YOU
 }
 
 @media screen and (min-width:1000px){
+
 	.order-links div {
 	    width: 19%;
 	    float: none;
 	    position: relative;
 	    display: inline-block;
 	    height:60px;
+	}
+	.thsh .button {
+		margin-left: 25px;
 	}
 	.order-links a {
 		display: block;
