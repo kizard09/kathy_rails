@@ -2940,7 +2940,7 @@ ABOUT YOU
 @media screen and (min-width:1000px){
 
 	.order-links div {
-	    width: 19%;
+	    width: 27%;
 	    float: none;
 	    position: relative;
 	    display: inline-block;
@@ -2962,9 +2962,13 @@ ABOUT YOU
 		padding-right:10px;
 	}
 	.order-links {
-		height: 80px;
+		height: 120px;
 	    display: block;
 	    position: relative;
+	}
+	.order-links div:nth-of-type(5) img {
+	width: 90%;
+	float:left;
 	}
 	.order-links img {
 		margin-bottom: 0;
