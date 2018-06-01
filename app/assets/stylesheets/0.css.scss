@@ -1063,7 +1063,7 @@ _________________________*/
 	padding: 15px 0 0;
 }
 .about .hero .wrap-no{
-	background-image: asset-data-url('mom_dad.png');
+	background-image: asset-data-url('about_kathy_2.png');
 	background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -2100,6 +2100,7 @@ Reader Stories
 	padding: 5px 10px;
 }
 
+
 @media (min-width:768px){
 	.mobile {
 		display: none;
@@ -2508,9 +2509,7 @@ Reader Stories
 	.speaking form .cf .field:first-of-type{
 		margin-right:2%;
 	}
-	.int:last-of-type {
-		width:680px;
-	}
+	
 	.media-vids .item {
 		width:50%;
 		padding:10px;
