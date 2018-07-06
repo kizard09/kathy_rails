@@ -1,3 +1,9 @@
-/app/views/contact_mailer
-/app/views/categories
+/test
+/node-modules
 /app/views/comments
+/app/views/contact_mailer
+/app/views/contact_users
+/app/views/categories
+/app/views/speaking_users
+/app/views/tags
+/app/controllers/tags_controller.rb
