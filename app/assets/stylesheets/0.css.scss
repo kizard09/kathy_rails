@@ -1554,6 +1554,7 @@ _____________*/
 .med div {
 	max-width: 200px;
 	margin:auto;
+	margin-bottom: 20px;
 }
 .med a, .med img {
 	width: 100%;
@@ -2611,9 +2612,9 @@ Reader Stories
 @media screen and (min-width: 768px){
 .med div {
 		width: 33%;
-		float:left;
 		position:relative;
-		display:block;
+		display:inline-block;
+		max-width:none;
 	}
 	.med a {
 		display: block;
@@ -2972,7 +2973,16 @@ ABOUT YOU
 		background-position: initial;
 	}
 }
-
+@media screen and (min-width:950px){
+	.med div {
+	width:25%;
+	max-height:100px;
+	}
+	.med div img {
+	max-height:100px;
+	width:auto;
+	}
+}
 @media screen and (min-width:1000px){
 
 	.order-links div {
