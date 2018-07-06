@@ -1,1 +1,0 @@
-json.partial! "contact_users/contact_user", contact_user: @contact_user

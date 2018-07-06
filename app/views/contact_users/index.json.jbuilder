@@ -1,1 +1,0 @@
-json.array! @contact_users, partial: 'contact_users/contact_user', as: :contact_user
