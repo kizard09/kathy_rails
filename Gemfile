@@ -22,17 +22,17 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-# gem 'devise'
+gem 'devise'
 
-# gem 'kaminari'
+gem 'kaminari'
 
-# gem 'paperclip'
+gem 'paperclip'
 
 gem 'figaro'
 
 gem 'aws-sdk', '~> 2'
 
-# gem 'ckeditor'
+gem 'ckeditor'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
