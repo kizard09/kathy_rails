@@ -26,7 +26,7 @@ class SiteController < ApplicationController
   end
 
   def speaking
-    @speaking_user = SpeakingUser.new
+    # @speaking_user = SpeakingUser.new
     @title = 'Speaking | Kathy Izard'
     @description = 'Have Kathy Izard speak at your event to inspire and inform about homelessness and mental illness.'
     @keywords = 'motivational speaker, speaker, Kathy Izard speaking, homelessness expert, mental illness expert, mental illness speaker, homelessness speaker'

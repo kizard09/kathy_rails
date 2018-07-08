@@ -21,3 +21,147 @@ NameError (uninitialized constant SiteController::SpeakingUser):
   Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
   Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
   Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (425.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-08 14:16:07 -0400
+Processing by SiteController#home as HTML
+  Rendered partials/_newsletter.html.erb (0.4ms)
+  Rendered site/home.html.erb within layouts/application (17876.0ms)
+Completed 200 OK in 18493ms (Views: 18488.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-08 14:16:25 -0400
+Processing by SiteController#home as HTML
+  Rendered partials/_newsletter.html.erb (0.0ms)
+  Rendered site/home.html.erb within layouts/application (20.7ms)
+Completed 200 OK in 60ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/0.self-ead866cfb5335985ec4871783b4aa386c0bd3f34bb3320b35fd4ae30f3b469b4.css?body=1" for 127.0.0.1 at 2018-07-08 14:16:26 -0400
+
+
+Started GET "/fonts/fa-brands-400.woff2" for 127.0.0.1 at 2018-07-08 14:16:26 -0400
+Processing by SiteController#not_found as 
+  Parameters: {"any"=>"fonts/fa-brands-400"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 18ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/fa-brands-400.woff" for 127.0.0.1 at 2018-07-08 14:16:26 -0400
+Processing by SiteController#not_found as 
+  Parameters: {"any"=>"fonts/fa-brands-400"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/fa-brands-400.ttf" for 127.0.0.1 at 2018-07-08 14:16:27 -0400
+Processing by SiteController#not_found as 
+  Parameters: {"any"=>"fonts/fa-brands-400"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/speaking" for 127.0.0.1 at 2018-07-08 14:16:28 -0400
+Processing by SiteController#speaking as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant SiteController::SpeakingUser):
+  app/controllers/site_controller.rb:29:in `speaking'
+
+
+  Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (191.3ms)
+  Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (256.5ms)
+  Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (416.1ms)
+
+
+Started GET "/site/speaking" for 127.0.0.1 at 2018-07-08 14:17:31 -0400
+Processing by SiteController#speaking as HTML
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant SiteController::SpeakingUser):
+  app/controllers/site_controller.rb:29:in `speaking'
+
+
+  Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (113.4ms)
+  Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (71.3ms)
+  Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (162.1ms)
+
+
+Started GET "/site/speaking" for 127.0.0.1 at 2018-07-08 14:18:24 -0400
+Processing by SiteController#speaking as HTML
+  Rendered site/speaking.html.erb within layouts/application (14.8ms)
+Completed 500 Internal Server Error in 43ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Missing partial speaking_users/_form with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/kaileyowenizard/Desktop/code&co/Kathy Izard/Kathy_Blog/app/views"
+  * "/Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/ckeditor-4.2.0/app/views"
+  * "/Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/devise-4.2.0/app/views"
+  * "/Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/kaminari-0.17.0/app/views"
+):
+    10: 					<h6>Speaking</h6>
+    11: 					<h3>Book Kathy for Your Event</h3>
+    12: 					<p>Thank you for your interest in having Kathy speak at your event. She’s inspired audiences of all sizes even as large as 1,000. Kathy has been invited all over North Carolina, South Carolina, Delaware, Georgia, Virginia, Tennessee and Texas and she is ready to encourage your community.  Whether it is a fundraising luncheon in your city or an inspirational interfaith talk, she can work with you to create a message that will connect with your audience. <br><br>Please contact me via email <a href="mailto:kathyizardspeaking@gmail.com?subject=Speaking Request&body=Hi Kathy! I am emailing to inquire about your speaking events..." class="button dblue">here</a></p><br>
+    13: <!-- 					<%= render 'speaking_users/form' %>
+    14:  -->				</div>
+    15: 				
+    16: 				<div class="int">
+  app/views/site/speaking.html.erb:13:in `_app_views_site_speaking_html_erb___3987265863831736588_70128745325080'
+
+
+  Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (25.9ms)
+  Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.1ms)
+  Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (23.4ms)
+  Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (393.6ms)
+  Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (155.4ms)
+  Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kaileyowenizard/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (259.9ms)
+
+
+Started GET "/site/speaking" for 127.0.0.1 at 2018-07-08 14:19:04 -0400
+Processing by SiteController#speaking as HTML
+  Rendered site/speaking.html.erb within layouts/application (22.4ms)
+Completed 200 OK in 85ms (Views: 84.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/fa-brands-400.woff2" for 127.0.0.1 at 2018-07-08 14:19:04 -0400
+Processing by SiteController#not_found as 
+  Parameters: {"any"=>"fonts/fa-brands-400"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/fa-brands-400.woff" for 127.0.0.1 at 2018-07-08 14:19:05 -0400
+Processing by SiteController#not_found as 
+  Parameters: {"any"=>"fonts/fa-brands-400"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/fa-brands-400.ttf" for 127.0.0.1 at 2018-07-08 14:19:05 -0400
+Processing by SiteController#not_found as 
+  Parameters: {"any"=>"fonts/fa-brands-400"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 252ms (Views: 250.4ms | ActiveRecord: 0.0ms)
