@@ -45,7 +45,7 @@ class SiteController < ApplicationController
   end
 
   def contact
-    @contact_user = ContactUser.new
+    # @contact_user = ContactUser.new
     @title = 'Contact | Kathy Izard'
     @description = 'Contact Kathy Izard, author of The Hundred Story Home, about your dreams, homelessness, mental illness or just to say hi.'
     @keywords = 'contact Kathy Izard, message Kathy Izard, Kathy Izard email, Kathy Izard contact'
