@@ -639,13 +639,10 @@ footer .primary a {
 	padding-bottom:25px;
 	font-size:25px;
 }
-.whisper .half span {
-	font-size: 26px;
-}
-.whisper .half:first-of-type {
+.whisper .half:last-of-type {
 background-image: asset-data-url('kathy_bracelets.JPG');
 }
-.whisper .half:last-of-type {
+.whisper .half:first-of-type {
 background-image: asset-data-url('book-bracelet.png');
 }
 .whisper .half {
@@ -734,6 +731,12 @@ background-image: asset-data-url('book-bracelet.png');
 .book h5 {
 	color: #71b4d5;
 	font-size:12px;
+}
+.trio-thanks {
+	margin:30px auto;
+}
+.trio-thanks img{
+	width: 100%;
 }
 .book .wrap-no {
 	padding: 0;
@@ -955,11 +958,13 @@ background-image: asset-data-url('book-bracelet.png');
 
 .whisper span {
 	color: #fff;
+	background: rgba(113, 180, 213, 0.8 );
 	width: 100%;
-	font: bold 16px 'futura-pt', sans-serif;
+	padding: 10px;
+	font: 16px 'futura-pt', sans-serif;
 	text-align: center;
 	display: inline-block;
-	text-shadow: 2px 2px #000;
+	
 }
 .whisper .button {
 	text-align: center;
@@ -1097,7 +1102,16 @@ _________________________*/
 	width: 50%;
 	float:left;
 }
+.whisper span {
+	font-size: 16px;
 }
+}
+@media (min-width:850px){
+.whisper span {
+	font-size: 20px;
+}
+}
+
 .about h3, .contact h3 {
 	text-align: center;
 }
