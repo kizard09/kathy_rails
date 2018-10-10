@@ -5734,3 +5734,196 @@ Processing by SiteController#not_found as
   Parameters: {"any"=>"fonts/fa-brands-400"}
   Rendered text template (0.0ms)
 Completed 404 Not Found in 7ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/speaking" for 127.0.0.1 at 2018-10-09 18:59:12 -0400
+Processing by SiteController#speaking as HTML
+  Rendered site/speaking.html.erb within layouts/application (98.0ms)
+Completed 200 OK in 491ms (Views: 424.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/fa-brands-400.woff2" for 127.0.0.1 at 2018-10-09 18:59:14 -0400
+Processing by SiteController#not_found as 
+  Parameters: {"any"=>"fonts/fa-brands-400"}
+  Rendered text template (0.1ms)
+Completed 404 Not Found in 5ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/fa-brands-400.woff" for 127.0.0.1 at 2018-10-09 18:59:14 -0400
+Processing by SiteController#not_found as 
+  Parameters: {"any"=>"fonts/fa-brands-400"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 4ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/fa-brands-400.ttf" for 127.0.0.1 at 2018-10-09 18:59:14 -0400
+Processing by SiteController#not_found as 
+  Parameters: {"any"=>"fonts/fa-brands-400"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 8ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/book" for 127.0.0.1 at 2018-10-09 19:04:17 -0400
+Processing by SiteController#book as HTML
+  Rendered site/book.html.erb within layouts/application (95.9ms)
+Completed 200 OK in 217ms (Views: 216.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/fa-brands-400.woff2" for 127.0.0.1 at 2018-10-09 19:04:18 -0400
+Processing by SiteController#not_found as 
+  Parameters: {"any"=>"fonts/fa-brands-400"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 3ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/fa-brands-400.woff" for 127.0.0.1 at 2018-10-09 19:04:19 -0400
+Processing by SiteController#not_found as 
+  Parameters: {"any"=>"fonts/fa-brands-400"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 3ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/fa-brands-400.ttf" for 127.0.0.1 at 2018-10-09 19:04:19 -0400
+Processing by SiteController#not_found as 
+  Parameters: {"any"=>"fonts/fa-brands-400"}
+  Rendered text template (0.1ms)
+Completed 404 Not Found in 4ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/readersstories" for 127.0.0.1 at 2018-10-09 19:06:47 -0400
+Processing by SiteController#readersstories as HTML
+  Rendered site/readersstories.html.erb within layouts/application (468.5ms)
+Completed 200 OK in 561ms (Views: 560.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/fa-brands-400.woff2" for 127.0.0.1 at 2018-10-09 19:06:49 -0400
+Processing by SiteController#not_found as 
+  Parameters: {"any"=>"fonts/fa-brands-400"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 3ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/fa-brands-400.woff" for 127.0.0.1 at 2018-10-09 19:06:49 -0400
+Processing by SiteController#not_found as 
+  Parameters: {"any"=>"fonts/fa-brands-400"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 3ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/fa-brands-400.ttf" for 127.0.0.1 at 2018-10-09 19:06:49 -0400
+Processing by SiteController#not_found as 
+  Parameters: {"any"=>"fonts/fa-brands-400"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/media" for 127.0.0.1 at 2018-10-09 19:07:52 -0400
+Processing by SiteController#media as HTML
+  Rendered site/media.html.erb within layouts/application (1012.7ms)
+Completed 200 OK in 1083ms (Views: 1082.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/fa-brands-400.woff2" for 127.0.0.1 at 2018-10-09 19:07:54 -0400
+Processing by SiteController#not_found as 
+  Parameters: {"any"=>"fonts/fa-brands-400"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 15ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/fa-brands-400.woff" for 127.0.0.1 at 2018-10-09 19:07:54 -0400
+Processing by SiteController#not_found as 
+  Parameters: {"any"=>"fonts/fa-brands-400"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 3ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/fa-brands-400.ttf" for 127.0.0.1 at 2018-10-09 19:07:54 -0400
+Processing by SiteController#not_found as 
+  Parameters: {"any"=>"fonts/fa-brands-400"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 3ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/speaking" for 127.0.0.1 at 2018-10-09 19:08:51 -0400
+Processing by SiteController#speaking as HTML
+  Rendered site/speaking.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 78ms (Views: 77.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/fa-brands-400.woff2" for 127.0.0.1 at 2018-10-09 19:08:53 -0400
+Processing by SiteController#not_found as 
+  Parameters: {"any"=>"fonts/fa-brands-400"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/fa-brands-400.woff" for 127.0.0.1 at 2018-10-09 19:08:53 -0400
+Processing by SiteController#not_found as 
+  Parameters: {"any"=>"fonts/fa-brands-400"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/fa-brands-400.ttf" for 127.0.0.1 at 2018-10-09 19:08:53 -0400
+Processing by SiteController#not_found as 
+  Parameters: {"any"=>"fonts/fa-brands-400"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-09 21:09:09 -0400
+Processing by SiteController#home as HTML
+  Rendered partials/_newsletter.html.erb (0.2ms)
+  Rendered site/home.html.erb within layouts/application (200.8ms)
+Completed 200 OK in 5789ms (Views: 5778.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/3covers-a165f243460142e1fb3dde21adc826ee39a0da0905e7745fe88c58145e531cb5.jpg" for 127.0.0.1 at 2018-10-09 21:09:15 -0400
+
+
+Started GET "/fonts/fa-brands-400.woff2" for 127.0.0.1 at 2018-10-09 21:09:16 -0400
+Processing by SiteController#not_found as 
+  Parameters: {"any"=>"fonts/fa-brands-400"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/fa-brands-400.woff" for 127.0.0.1 at 2018-10-09 21:09:16 -0400
+Processing by SiteController#not_found as 
+  Parameters: {"any"=>"fonts/fa-brands-400"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/fa-brands-400.ttf" for 127.0.0.1 at 2018-10-09 21:09:17 -0400
+Processing by SiteController#not_found as 
+  Parameters: {"any"=>"fonts/fa-brands-400"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 3ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/book" for 127.0.0.1 at 2018-10-09 21:09:24 -0400
+Processing by SiteController#book as HTML
+  Rendered site/book.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 63ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/fa-brands-400.woff2" for 127.0.0.1 at 2018-10-09 21:09:25 -0400
+Processing by SiteController#not_found as 
+  Parameters: {"any"=>"fonts/fa-brands-400"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/fa-brands-400.woff" for 127.0.0.1 at 2018-10-09 21:09:26 -0400
+Processing by SiteController#not_found as 
+  Parameters: {"any"=>"fonts/fa-brands-400"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/fa-brands-400.ttf" for 127.0.0.1 at 2018-10-09 21:09:26 -0400
+Processing by SiteController#not_found as 
+  Parameters: {"any"=>"fonts/fa-brands-400"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms)
