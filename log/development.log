@@ -8380,3 +8380,62 @@ Processing by SiteController#not_found as
   Parameters: {"any"=>"fonts/fa-brands-400"}
   Rendered text template (0.0ms)
 Completed 404 Not Found in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-01-06 10:17:07 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SiteController#home as HTML
+  Rendered partials/_newsletter.html.erb (0.2ms)
+  Rendered site/home.html.erb within layouts/application (8264.6ms)
+Completed 200 OK in 8913ms (Views: 8896.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/0.self-bbdb20792db875b704048249530dcb59064d37a9e651c45908f2fa860a2f1db5.css?body=1" for ::1 at 2019-01-06 10:17:21 -0500
+
+
+Started GET "/fonts/fa-brands-400.woff2" for ::1 at 2019-01-06 10:17:21 -0500
+Processing by SiteController#not_found as 
+  Parameters: {"any"=>"fonts/fa-brands-400"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/fa-brands-400.woff" for ::1 at 2019-01-06 10:17:22 -0500
+Processing by SiteController#not_found as 
+  Parameters: {"any"=>"fonts/fa-brands-400"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/fa-brands-400.ttf" for ::1 at 2019-01-06 10:17:22 -0500
+Processing by SiteController#not_found as 
+  Parameters: {"any"=>"fonts/fa-brands-400"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/media" for ::1 at 2019-01-06 10:17:53 -0500
+Processing by SiteController#media as HTML
+  Rendered site/media.html.erb within layouts/application (37.1ms)
+Completed 200 OK in 75ms (Views: 74.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/fa-brands-400.woff2" for ::1 at 2019-01-06 10:17:54 -0500
+Processing by SiteController#not_found as 
+  Parameters: {"any"=>"fonts/fa-brands-400"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/fa-brands-400.woff" for ::1 at 2019-01-06 10:17:54 -0500
+Processing by SiteController#not_found as 
+  Parameters: {"any"=>"fonts/fa-brands-400"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/fa-brands-400.ttf" for ::1 at 2019-01-06 10:17:54 -0500
+Processing by SiteController#not_found as 
+  Parameters: {"any"=>"fonts/fa-brands-400"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
